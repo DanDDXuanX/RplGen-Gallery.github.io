@@ -13,8 +13,22 @@
 
 # 素材共享
 
-*这里还没有东西呢，快快投稿你的replay视频，来抢占位置吧*
+## 界面区
 
-# 更新动态
+### [EXiu_01](./share/EXiu_01/)
+![EXiu_01](./thumbnail/EXiu_01.png)
 
-*这里还没有东西呢，快快投稿你的replay视频，来抢占位置吧*
+## 立绘区
+
+*这里还没有东西呢，快快投稿你的共享素材，来抢占位置吧*
+
+# 视频教程
+
+### [序章-python环境依赖的安装](https://www.bilibili.com/video/BV1Vu411e74H/)
+![T0](./thumbnail/tutorials_00.png)
+
+### [第一章-从零开始的“Hello World!”](https://www.bilibili.com/video/BV1RP4y1K76f/)
+![T1](./thumbnail/tutorials_01.png)
+
+### [第二章-音效配置与语音合成](https://www.bilibili.com/video/BV17i4y1D76s/)
+![T2](./thumbnail/tutorials_02.png)
