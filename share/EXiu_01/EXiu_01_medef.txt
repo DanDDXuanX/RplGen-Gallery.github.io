@@ -1,0 +1,14 @@
+# 文本定义
+text_main_speech = StrokeText(fontfile='./media/SourceHanSansCN-Regular.otf',fontsize=30,color=(255,255,255,255),line_limit=25,edge_color=(128,128,128,255))
+header_text = Text(fontfile='./media/SourceHanSerifSC-Heavy.otf',fontsize=45,color=(255,255,255,255),line_limit=5)
+center_text = StrokeText(fontfile='./media/SourceHanSerifSC-Heavy.otf',fontsize=40,color=(255,255,255,255),line_limit=24,edge_color=(128,128,128,255))
+top_text = Text(fontfile='./media/SourceHanSerifSC-Heavy.otf',fontsize=40,color=(255,255,255,255),line_limit=5)
+# 气泡定义
+speech_bubble = Bubble(filepath='./gallery/EXiu_01/speech_bubble.png',Main_Text=text_main_speech,Header_Text=header_text,pos=(0,0),mt_pos=(342,516),ht_pos=(132,608),align='left',line_distance=1.3)
+center_bubble = Bubble(filepath='./gallery/EXiu_01/center_bubble.png',Main_Text=center_text,Header_Text=None,pos=(40,165),mt_pos=(130,76),ht_pos=(0,0),align='center',line_distance=1.5)
+top_bubble = Bubble(filepath='./gallery/EXiu_01/top_bubble.png',Main_Text=top_text,Header_Text=None,pos=(375,0),mt_pos=(157,1),ht_pos=(0,0),align='center',line_distance=1.5)
+
+# 测试用的背景
+background_frame = Background(filepath='./gallery/EXiu_01/background_test.png',pos=(0,0))
+
+# 在这之后定义你的其他媒体吧！
