@@ -20,7 +20,8 @@
 
 ## 立绘区
 
-*这里还没有东西呢，快快投稿你的共享素材，来抢占位置吧*
+### [ShiChen_01](./share/ShiChen_01/)
+![ShiChen_01](./thumbnail/ShiChen_01.png)
 
 # 视频教程
 
