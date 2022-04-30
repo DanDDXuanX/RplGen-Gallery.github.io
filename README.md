@@ -9,7 +9,8 @@
 
 # 成品展览
 
-*这里还没有东西呢，快快投稿你的replay视频，来抢占位置吧*
+### [星尘的研究](./gallery/A_Study_in_Stardust)
+![星尘的研究](./thumbnail/A_Study_in_StarDust.png)
 
 # 素材共享
 
