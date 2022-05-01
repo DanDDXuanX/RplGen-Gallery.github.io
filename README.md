@@ -16,6 +16,9 @@
 
 ## 界面区
 
+### [MangHe_01](./share/MangHe_01/)
+![MangHe_01](./thumbnail/MangHe_01.png)
+
 ### [EXiu_01](./share/EXiu_01/)
 ![EXiu_01](./thumbnail/EXiu_01.png)
 
@@ -34,3 +37,6 @@
 
 ### [第二章-音效配置与语音合成](https://www.bilibili.com/video/BV17i4y1D76s/)
 ![T2](./thumbnail/tutorials_02.png)
+
+### [第二章-音效配置与语音合成](https://www.bilibili.com/video/BV1Gi4y1U7Ck/)
+![T3](./thumbnail/tutorials_03.png)
