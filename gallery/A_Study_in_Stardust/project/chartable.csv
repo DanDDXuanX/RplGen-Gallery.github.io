@@ -21,10 +21,8 @@ kp	吐槽	KP_small	bb_comment	zhitian	80	-30
 图例	演出海报	poster	NA	NA		
 图例	地图	arkham_map	NA	NA		
 图例	报纸1	newspaper1	NA	NA		
-图例	复旧党报纸	NA	NA	NA		
-图例	酒店门口广告牌	NA	NA	NA		
-图例	书单	NA	NA	NA		
-张安翔	default	zhang	bb_zhang	kenny	-50	50
+图例	星尘照片	photo_stardust	NA	NA		
+张安翔	default	zhang	bb_zhang	kenny	20	50
 张安翔	吐槽	zhang_small	bb_comment	kenny	100	50
 张安翔	电子邮件	zhang	bb_mail	kenny	80	50
 朱蒂	default	NA	bb_judi	sijia	60	-30

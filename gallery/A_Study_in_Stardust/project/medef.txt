@@ -23,11 +23,15 @@ bb_search = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/搜索引
 bb_change_bg = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/dark.png',Main_Text=center_text,Header_Text=None,pos=(0,0),mt_pos=(560,398),ht_pos=(0,0),align='center',line_distance=1.3)
 
 # 故事背景
+# 00
 zhang_home = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/00/bg_zhang_home.png',pos=(0,0))
 nuolan_home = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/00/bg_nuolan_home.png',pos=(0,0))
 stock_home = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/00/bg_stock_home.png',pos=(0,0))
-train_square = Background('E:/Data/20220419_星尘的研究/media/bg/bg_train_square.png')
-new_cafe = Background('E:/Data/20220419_星尘的研究/media/bg/bg_new_cafe.png')
+# 01
+train_station = Background('E:/Data/20220419_星尘的研究/media/bg/01/bg_train_square.png')
+train_judi_arrive = Background('E:/Data/20220419_星尘的研究/media/bg/01/bg_train_judi.png')
+new_cafe = Background('E:/Data/20220419_星尘的研究/media/bg/01/bg_new_cafe.png')
+leave_cafe = Background('E:/Data/20220419_星尘的研究/media/bg/01/bg_new_cafe_leave.png')
 
 # 功能背景
 header1 = Background('E:/Data/20220419_星尘的研究/media/bg/HEADER.png')
@@ -51,6 +55,7 @@ help_mail = Animation(filepath='E:/Data/20220419_星尘的研究/media/fig/help_
 newspaper1 = Animation("E:/Data/20220419_星尘的研究/media/fig/报纸1.png",pos=(597,108))
 poster = Animation("E:/Data/20220419_星尘的研究/media/fig/poster.png",pos=(607,107))
 arkham_map = Animation("E:/Data/20220419_星尘的研究/media/fig/地图.png",pos=(598,98))
+photo_stardust = Animation("E:/Data/20220419_星尘的研究/media/fig/星尘照片.png",pos=(625,224))
 
 # 角色卡
 profile_N = Animation('E:/Data/20220419_星尘的研究/media/am/诺兰档案.png',pos=(154,-3))
@@ -66,3 +71,4 @@ highlight3 = Animation("E:/Data/20220419_星尘的研究/media/am/highlight/帧 
 open_paper = Audio('E:/Data/20220419_星尘的研究/media/se/paper.wav')
 keyboard = Audio('E:/Data/20220419_星尘的研究/media/se/keyboard.wav')
 receive_mail = Audio('E:/Data/20220419_星尘的研究/media/se/mail.wav')
+make_call = Audio('E:/Data/20220419_星尘的研究/media/se/make_phone_call.wav')
