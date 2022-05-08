@@ -1,0 +1,48 @@
+Name	Subtype	Animation	Bubble	Voice	SpeechRate	PitchRate
+kp	default	highligit_KP	bb_KP	zhitian	80	-30
+kp	吐槽	KP_small	bb_comment	zhitian	80	-30
+kp	sancheck	sancheck_KP	bb_sancheck	zhitian	80	-30
+kp	书本资料	highligit_KP	bb_book	zhitian	120	-30
+搜索引擎	default	highligit_KP	bb_search	zhitian	120	-30
+kp	文件	highligit_KP	bb_document	zhitian	120	-30
+拉塔斯托克	default	stock	bb_stock	stanley	30	-30
+拉塔斯托克	吐槽	stock_small	bb_comment	stanley	100	-30
+拉塔斯托克	电子邮件	stock	bb_mail	stanley	60	-30
+诺兰	default	nuolan	bb_nuolan	aishuo	-20	-90
+诺兰	吐槽	nuolan_small	bb_comment	aishuo	50	-90
+诺兰	电子邮件	nuolan	bb_mail	aishuo	30	-90
+张安翔	default	zhang	bb_zhang	kenny	20	50
+张安翔	吐槽	zhang_small	bb_comment	kenny	100	50
+张安翔	电子邮件	zhang	bb_mail	kenny	80	50
+朱蒂	default	NA	bb_judi	sijia	60	-30
+朱蒂	电话	NA	bb_judi	sijia	60	-30
+朱蒂	电子邮件	NA	bb_mail	sijia	120	-30
+威尔逊	default	NA	bb_welson	aicheng	100	-25
+安德鲁_摩根	default	NA	bb_morgan	aifei	50	-80
+麦克_里斯	default	NA	bb_mike	aicheng	50	-75
+阿米蒂奇	default	NA	bb_Armitage	aiya	40	15
+未知姓名	警员	NA	bb_unknown	aicheng	100	-25
+未知姓名	局长	NA	bb_unknown	aifei	50	-80
+未知姓名	default	NA	bb_unknown	yaqun	80	0
+未知姓名	女闻讯员	NA	bb_unknown	yina	0	0
+未知姓名	男闻讯员	NA	bb_unknown	aicheng	50	-75
+未知姓名	阿米蒂奇	NA	bb_unknown	aiya	40	15
+场景切换	default	NA	bb_change_bg	NA		
+角色介绍	诺兰	profile_N	bb_change_bg	NA		
+角色介绍	张安翔	profile_Z	bb_change_bg	NA		
+角色介绍	斯托克	profile_S	bb_change_bg	NA		
+图例	default	NA	NA	NA		
+图例	招募邮件	help_mail	NA	NA		
+图例	演出海报	poster	NA	NA		
+图例	地图	arkham_map	NA	NA		
+图例	报纸1	newspaper1	NA	NA		
+图例	星尘照片	photo_stardust	NA	NA		
+图例	五角星	photo_starmark	NA	NA		
+图例	复旧党报纸	newspaper2	NA	NA		
+图例	书单_kp	booklist_kp	NA	NA		
+图例	书单_pc	booklist_pc	NA	NA		
+图例	酒店门口广告牌	advertising_board	NA	NA		
+Hi	default	highlight1	NA	NA		
+Hi	1	highlight1	NA	NA		
+Hi	2	highlight2	NA	NA		
+Hi	3	highlight3	NA	NA		

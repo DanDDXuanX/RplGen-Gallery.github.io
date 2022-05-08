@@ -5,22 +5,30 @@ search_head_text = Text(fontfile='D:/GitHub/TRPG-Replay-Generator/media/SourceHa
 comment_text = Text(fontfile="D:/GitHub/思源宋体/SimplifiedChinese/SourceHanSerifSC-Bold.otf",fontsize=40,color=(255,255,255,255),line_limit=15)
 mail_text = Text(fontfile='D:/GitHub/TRPG-Replay-Generator/media/SourceHanSansCN-Regular.otf',fontsize=40,color=(72,72,72,255),line_limit=32)
 speech_text = Text(fontfile="D:/GitHub/思源宋体/SimplifiedChinese/SourceHanSerifSC-Bold.otf",fontsize=40,color=(255,255,255,255),line_limit=30)
+book_text = Text(fontfile="D:/GitHub/思源宋体/SimplifiedChinese/SourceHanSerifSC-Regular.otf",fontsize=36,color=(10,10,10,255),line_limit=15)
+document_text = Text(fontfile="D:/GitHub/思源宋体/SimplifiedChinese/SourceHanSerifSC-Regular.otf",fontsize=40,color=(10,10,10,255),line_limit=26)
+sancheck_text = StrokeText('E:/Data/20220419_星尘的研究/media/禹卫书法行书简体（优化版）.ttf',fontsize=40,color=(255,255,255,255),line_limit=30,edge_color=(127,0,0,255))
 
 # 角色气泡
 bb_zhang = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/-张安翔-.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
 bb_nuolan = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/-诺兰·伯内特-.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
 bb_stock = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/-拉塔斯托克-.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
-bb_judi = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/-朱蒂·康伯巴奇-.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
+bb_KP = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/dialog_KP.png',Main_Text=speech_text,Header_Text=None,pos=(260,18),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
+
 bb_unknown = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/未知姓名.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
 bb_welson = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/-威尔逊-.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
 bb_morgan = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/-安德鲁·摩根-.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
-bb_KP = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/dialog_KP.png',Main_Text=speech_text,Header_Text=None,pos=(260,18),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
-
+bb_judi = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/-朱蒂·康伯巴奇-.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
+bb_mike = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/麦克里斯.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
+bb_Armitage = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/阿米蒂奇.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
 # 功能气泡
 bb_mail = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/电子邮箱.png',Main_Text=mail_text,Header_Text=mail_text,pos=(260,744),mt_pos=(60,90),ht_pos=(1100,240),align='left',line_distance=1.25)
 bb_comment = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/comment_bubble.png',Main_Text=comment_text,Header_Text=None,pos=(52,0),mt_pos=(180,55),ht_pos=(0,0),align='left',line_distance=1.7)
 bb_search = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/搜索引擎.png',Main_Text=mail_text,Header_Text=search_head_text,pos=(260,177),mt_pos=(72,256),ht_pos=(72,196),align='left',line_distance=1.3)
 bb_change_bg = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/dark.png',Main_Text=center_text,Header_Text=None,pos=(0,0),mt_pos=(560,398),ht_pos=(0,0),align='center',line_distance=1.3)
+bb_sancheck = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/sancheck.png',Main_Text=sancheck_text,Header_Text=None,pos=(-2,-2),mt_pos=(362,102),ht_pos=(0,0),align='left',line_distance=1.3)
+bb_document = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/paper.png',Main_Text=document_text,Header_Text=None,pos=(359,74),mt_pos=(96,200),line_distance=1.5)
+bb_book = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/书本.png',Main_Text=book_text,pos=(539,7),mt_pos=(220,131),line_distance=1.5)
 
 # 故事背景
 # 00
@@ -32,6 +40,29 @@ train_station = Background('E:/Data/20220419_星尘的研究/media/bg/01/bg_trai
 train_judi_arrive = Background('E:/Data/20220419_星尘的研究/media/bg/01/bg_train_judi.png')
 new_cafe = Background('E:/Data/20220419_星尘的研究/media/bg/01/bg_new_cafe.png')
 leave_cafe = Background('E:/Data/20220419_星尘的研究/media/bg/01/bg_new_cafe_leave.png')
+# 02
+taxi = Background("E:/Data/20220419_星尘的研究/media/bg/02/taxi.jpg")
+morgan_office = Background("E:/Data/20220419_星尘的研究/media/bg/02/morgan_office.jpg")
+police_nobody = Background("E:/Data/20220419_星尘的研究/media/bg/02/police_nobody.jpg")
+police_station = Background("E:/Data/20220419_星尘的研究/media/bg/02/police_station.jpg")
+police_street = Background("E:/Data/20220419_星尘的研究/media/bg/02/street.jpg")
+# 03
+public_library_lobby = Background("E:/Data/20220419_星尘的研究/media/bg/03/public_library_lobby.jpg")
+public_library_bookshelf = Background("E:/Data/20220419_星尘的研究/media/bg/03/public_library_bookshelf.jpg")
+public_library_desk = Background("E:/Data/20220419_星尘的研究/media/bg/03/public_library_desk.jpg")
+bus_inside = Background("E:/Data/20220419_星尘的研究/media/bg/03/bus_inside.jpg")
+hotel_outside = Background("E:/Data/20220419_星尘的研究/media/bg/03/hotel_outside.jpg")
+hotel_lobby = Background("E:/Data/20220419_星尘的研究/media/bg/03/hotel_lobby.jpg")
+snow_street = Background("E:/Data/20220419_星尘的研究/media/bg/03/snow_street.jpg")
+# 04
+aoen_library_outside = Background("E:/Data/20220419_星尘的研究/media/bg/04/aoen_library_outside.jpg")
+aoen_library_lobby = Background("E:/Data/20220419_星尘的研究/media/bg/04/aoen_library_lobby.jpg")
+aoen_library_basement_outside = Background("E:/Data/20220419_星尘的研究/media/bg/04/aoen_library_basement_outside.jpg")
+aoen_library_basement_inside = Background("E:/Data/20220419_星尘的研究/media/bg/04/aoen_library_basement_inside.jpg")
+king_hamburger = Background("E:/Data/20220419_星尘的研究/media/bg/04/king_hamburger.jpg")
+taxi_norlan = Background("E:/Data/20220419_星尘的研究/media/bg/04/taxi_norlan.jpg")
+hotel_outside_norlan = Background("E:/Data/20220419_星尘的研究/media/bg/04/hotel_outside_norlan.jpg")
+hotel_lobby_all = Background("E:/Data/20220419_星尘的研究/media/bg/04/hotel_lobby_all.jpg")
 
 # 功能背景
 header1 = Background('E:/Data/20220419_星尘的研究/media/bg/HEADER.png')
@@ -43,6 +74,7 @@ zhang = Animation(filepath='E:/Data/20220419_星尘的研究/media/am/zhang.png'
 nuolan = Animation(filepath='E:/Data/20220419_星尘的研究/media/am/nuolan.png',pos=(3,590),tick=1,loop=True)
 stock = Animation(filepath='E:/Data/20220419_星尘的研究/media/am/stock.png',pos=(0,416),tick=1,loop=True)
 highligit_KP = Animation("E:/Data/20220419_星尘的研究/media/am/highlight/帧 *.png",pos=(1666,-46),tick=1,loop=True)
+sancheck_KP = Animation("E:/Data/20220419_星尘的研究/media/am/sancheck/帧 *.png",pos=(1666,-46),tick=2,loop=True)
 
 # 吐槽立绘
 zhang_small = Animation(filepath='E:/Data/20220419_星尘的研究/media/am/Z.png',pos=(78,37),tick=1,loop=True)
@@ -56,6 +88,12 @@ newspaper1 = Animation("E:/Data/20220419_星尘的研究/media/fig/报纸1.png",
 poster = Animation("E:/Data/20220419_星尘的研究/media/fig/poster.png",pos=(607,107))
 arkham_map = Animation("E:/Data/20220419_星尘的研究/media/fig/地图.png",pos=(598,98))
 photo_stardust = Animation("E:/Data/20220419_星尘的研究/media/fig/星尘照片.png",pos=(625,224))
+#photo_starmark = Animation("E:/Data/20220419_星尘的研究/media/fig/五角星.png",pos=(610,350))
+photo_starmark = Animation("E:/Data/20220419_星尘的研究/media/fig/五角星.png",pos=(610,60))
+newspaper2 = Animation("E:/Data/20220419_星尘的研究/media/fig/复旧党报纸.png",pos=(240,251))
+booklist_kp = Animation("E:/Data/20220419_星尘的研究/media/fig/书单.png",pos=(591,231))
+booklist_pc = Animation("E:/Data/20220419_星尘的研究/media/fig/书单.png",pos=(591,-20))
+advertising_board = Animation("E:/Data/20220419_星尘的研究/media/fig/广告牌.png",pos=(376,203))
 
 # 角色卡
 profile_N = Animation('E:/Data/20220419_星尘的研究/media/am/诺兰档案.png',pos=(154,-3))
