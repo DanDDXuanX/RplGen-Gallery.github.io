@@ -9,6 +9,9 @@
 
 # 成品展览
 
+### [《无限恐怖》 原著向跑团](./gallery/Wuxian_139)
+![无限恐怖](./thumbnail/Wuxian_139.png)
+
 ### [星尘的研究](./gallery/A_Study_in_Stardust)
 ![星尘的研究](./thumbnail/A_Study_in_StarDust.png)
 
@@ -38,5 +41,5 @@
 ### [第二章-音效配置与语音合成](https://www.bilibili.com/video/BV17i4y1D76s/)
 ![T2](./thumbnail/tutorials_02.png)
 
-### [第二章-音效配置与语音合成](https://www.bilibili.com/video/BV1Gi4y1U7Ck/)
+### [第三章-动态效果的配置](https://www.bilibili.com/video/BV1Gi4y1U7Ck/)
 ![T3](./thumbnail/tutorials_03.png)
