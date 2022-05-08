@@ -9,6 +9,9 @@
 
 # 成品展览
 
+### [前瞻者的始末](./gallery/QZZDSM)
+![前瞻者的始末](./thumbnail/QZZDSM.png)
+
 ### [《无限恐怖》 原著向跑团](./gallery/Wuxian_139)
 ![无限恐怖](./thumbnail/Wuxian_139.png)
 
