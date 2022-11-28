@@ -5,6 +5,7 @@ kp	sancheck	sancheck_KP	bb_sancheck	zhitian	80	-30
 kp	书本资料	highligit_KP	bb_book	zhitian	120	-30
 搜索引擎	default	highligit_KP	bb_search	zhitian	120	-30
 kp	文件	highligit_KP	bb_document	zhitian	120	-30
+kp	演出	NA	bb_performance	zhitian	120	-30
 拉塔斯托克	default	stock	bb_stock	stanley	30	-30
 拉塔斯托克	吐槽	stock_small	bb_comment	stanley	100	-30
 拉塔斯托克	电子邮件	stock	bb_mail	stanley	60	-30
@@ -27,6 +28,7 @@ kp	文件	highligit_KP	bb_document	zhitian	120	-30
 查尔斯_匹斯里	default	highlight1	bb_pisli	Azure::zh-CN-YunyeNeural:serious:1:OlderAdultMale	25	-150
 查尔斯_匹斯里	电子邮件	highlight3	bb_mail	Azure::zh-CN-YunyeNeural:calm:1:OlderAdultMale	100	-150
 鲍勃_古丁	default	highlight1	bb_bob	Azure::zh-CN-YunyangNeural:narration-professional:1:Default	25	-120
+尼尔盖曼	default	NA	bb_shadowmoon	Azure::zh-CN-YunyeNeural:cheerful:1.6:OlderAdultMale	50	40
 未知姓名	警员	NA	bb_unknown	aicheng	100	-25
 未知姓名	局长	NA	bb_unknown	aifei	50	-80
 未知姓名	default	NA	bb_unknown	yaqun	80	0
@@ -39,6 +41,9 @@ kp	文件	highligit_KP	bb_document	zhitian	120	-30
 未知姓名	诺雅	highlight3	bb_unknown	aixia	20	10
 未知姓名	老奶奶	NA	bb_unknown	Azure::zh-CN-XiaoxuanNeural:calm:1:SeniorFemale	-30	-150
 未知姓名	巡警	NA	bb_unknown	ailun	50	0
+未知姓名	司机	NA	bb_unknown	xiaogang	0	-150
+未知姓名	哥们	NA	bb_unknown	aishuo	-20	60
+未知姓名	特派员	NA	bb_unknown	xiaogang	0	-200
 场景切换	default	NA	bb_change_bg	NA		
 角色介绍	诺兰	profile_N	bb_change_bg	NA		
 角色介绍	张安翔	profile_Z	bb_change_bg	NA		
@@ -62,6 +67,8 @@ kp	文件	highligit_KP	bb_document	zhitian	120	-30
 图例	星尘的研究背景	study_basis_stardust	bb_change_bg	NA		
 图例	杰克托伦斯	jack_torrens	NA	NA		
 图例	广告人剪报	newer_newspaper	bb_change_bg	NA		
+图例	俱乐部卡片	club_card	bb_change_bg	NA		
+图例	第二次报纸	second_news	bb_change_bg	NA		
 Hi	default	highlight1	NA	NA		
 Hi	1	highlight1	NA	NA		
 Hi	2	highlight2	NA	NA		

@@ -8,6 +8,8 @@ speech_text = Text(fontfile="D:/GitHub/思源宋体/SimplifiedChinese/SourceHanS
 book_text = Text(fontfile="D:/GitHub/思源宋体/SimplifiedChinese/SourceHanSerifSC-Regular.otf",fontsize=36,color=(10,10,10,255),line_limit=15)
 document_text = Text(fontfile="D:/GitHub/思源宋体/SimplifiedChinese/SourceHanSerifSC-Regular.otf",fontsize=40,color=(10,10,10,255),line_limit=26)
 sancheck_text = StrokeText('E:/Data/20220419_星尘的研究/media/禹卫书法行书简体（优化版）.ttf',fontsize=40,color=(255,255,255,255),line_limit=30,edge_color=(127,0,0,255))
+performance_text = StrokeText(fontfile='./media/SourceHanSerifSC-Heavy.otf',fontsize=75,color=(255,255,255,255),line_limit=20,edge_color=(132,0,0,255))
+
 
 # 角色气泡
 bb_zhang = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/-张安翔-.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
@@ -25,6 +27,7 @@ bb_doctor = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/布鲁斯
 bb_Noa = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/诺雅·博加德.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
 bb_pisli = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/查尔斯_匹斯里.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
 bb_bob = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/鲍勃_古丁.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
+bb_shadowmoon = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/尼尔盖曼.png',Main_Text=speech_text,Header_Text=None,pos=(260,744),mt_pos=(100,72),ht_pos=(0,0),align='left',line_distance=1.3)
 
 # 功能气泡
 bb_mail = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/电子邮箱.png',Main_Text=mail_text,Header_Text=mail_text,pos=(260,744),mt_pos=(60,90),ht_pos=(1100,240),align='left',line_distance=1.25)
@@ -34,6 +37,7 @@ bb_change_bg = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/dark.p
 bb_sancheck = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/sancheck.png',Main_Text=sancheck_text,Header_Text=None,pos=(-2,-2),mt_pos=(362,102),ht_pos=(0,0),align='left',line_distance=1.3)
 bb_document = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/paper.png',Main_Text=document_text,Header_Text=None,pos=(359,74),mt_pos=(96,200),line_distance=1.5)
 bb_book = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/书本.png',Main_Text=book_text,pos=(539,7),mt_pos=(220,131),line_distance=1.5)
+bb_performance = Bubble(filepath=None,Main_Text=performance_text,Header_Text=None,pos=(0,0),mt_pos=(210,400),ht_pos=(0,0),align='center',line_distance=1.5)
 
 # 故事背景
 # 00
@@ -124,14 +128,69 @@ bb_book = Bubble(filepath='E:/Data/20220419_星尘的研究/media/bb/书本.png'
 # dressing_room = Background("E:/Data/20220419_星尘的研究/media/bg/11/dressing_room.jpg")
 # jail = Background("E:/Data/20220419_星尘的研究/media/bg/11/jail.jpg")
 # 12
-covenside_kitchen = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_kitchen.jpg")
-covenside_room204 = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_room204.jpg")
-cemetery = Background("E:/Data/20220419_星尘的研究/media/bg/12/cemetery.jpg")
-cemetery_alone = Background("E:/Data/20220419_星尘的研究/media/bg/12/cemetery_alone.jpg")
-covenside_canteen = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_canteen.jpg")
-covenside_corridor = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_corridor.jpg")
-covenside_hall = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_hall.jpg")
-covenside_hall_z = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_hall_z.jpg")
+# covenside_kitchen = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_kitchen.jpg")
+# covenside_room204 = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_room204.jpg")
+# cemetery = Background("E:/Data/20220419_星尘的研究/media/bg/12/cemetery.jpg")
+# cemetery_alone = Background("E:/Data/20220419_星尘的研究/media/bg/12/cemetery_alone.jpg")
+# covenside_canteen = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_canteen.jpg")
+# covenside_corridor = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_corridor.jpg")
+# covenside_hall = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_hall.jpg")
+# covenside_hall_z = Background("E:/Data/20220419_星尘的研究/media/bg/12/covenside_hall_z.jpg")
+# 13
+# performance = Background("E:/Data/20220419_星尘的研究/media/bg/13/performance.jpg")
+# crowd = Background("E:/Data/20220419_星尘的研究/media/bg/13/crowd.jpg")
+# inside_blackcar = Background("E:/Data/20220419_星尘的研究/media/bg/13/inside_blackcar.jpg")
+# inside_theatre = Background("E:/Data/20220419_星尘的研究/media/bg/13/inside_theatre.jpg")
+# inside_theatre_f = Background("E:/Data/20220419_星尘的研究/media/bg/13/inside_theatre_f.jpg")
+# inside_theatre_z = Background("E:/Data/20220419_星尘的研究/media/bg/13/inside_theatre_z.jpg")
+# outside_blackcar = Background("E:/Data/20220419_星尘的研究/media/bg/13/outside_blackcar.jpg")
+# outside_theatre = Background("E:/Data/20220419_星尘的研究/media/bg/13/outside_theatre.jpg")
+# stage_theatre = Background("E:/Data/20220419_星尘的研究/media/bg/13/stage_theatre.jpg")
+# stage_theatre_f = Background("E:/Data/20220419_星尘的研究/media/bg/13/stage_theatre_f.jpg")
+# stage_theatre_z = Background("E:/Data/20220419_星尘的研究/media/bg/13/stage_theatre_z.jpg")
+# theatre_toilet = Background("E:/Data/20220419_星尘的研究/media/bg/13/theatre_toilet.jpg")
+# 14
+# hotel_room_judi = Background("E:/Data/20220419_星尘的研究/media/bg/14/hotel_room_judi.jpg")
+# cemetery_night = Background("E:/Data/20220419_星尘的研究/media/bg/14/cemetery_night.jpg")
+# covenside_corridor_night = Background("E:/Data/20220419_星尘的研究/media/bg/14/covenside_corridor_night.jpg")
+# covenside_hall_night = Background("E:/Data/20220419_星尘的研究/media/bg/14/covenside_hall_night.jpg")
+# covenside_outside_night = Background("E:/Data/20220419_星尘的研究/media/bg/14/covenside_outside_night.jpg")
+# covenside_outside_night_all = Background("E:/Data/20220419_星尘的研究/media/bg/14/covenside_outside_night_all.jpg")
+# covenside_room_night = Background("E:/Data/20220419_星尘的研究/media/bg/14/covenside_room_night.jpg")
+# hotel_dream = Background("E:/Data/20220419_星尘的研究/media/bg/14/hotel_dream.jpg")
+# cemetery_night_notshadow = Background("E:/Data/20220419_星尘的研究/media/bg/14/cemetery_night_notshadow.jpg")
+
+# final
+
+# 15
+# 酒店大厅 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/酒店大厅.jpg',pos=(0,0),label_color='Lavender')
+# 酒店房间_斯托克 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/酒店房间1.jpg',pos=(0,0),label_color='Lavender')
+# 酒店房间_诺兰 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/酒店房间3.jpg',pos=(0,0),label_color='Lavender')
+# 酒店房间_张安翔 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/酒店房间2.jpg',pos=(0,0),label_color='Lavender')
+# 酒店走廊 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/酒店走廊.jpg',pos=(0,0),label_color='Lavender')
+# 酒店外面 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/酒店外面.jpg',pos=(0,0),label_color='Lavender')
+# 酒店餐厅 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/酒店餐厅.jpg',pos=(0,0),label_color='Lavender')
+
+# 18
+俱乐部外面 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/俱乐部外面.jpg',pos=(0,0),label_color='Lavender')
+俱乐部书房 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/俱乐部书房.jpg',pos=(0,0),label_color='Lavender')
+出租车背景 = Background(filepath='E:/Data/20220419_星尘的研究/media/bg/final/出租车.jpg',pos=(0,0),label_color='Lavender')
+
+## 框架
+框架位置 = PosGrid(pos=(29,542),end=(3453,1082),x_step=2,y_step=3)
+背景框架 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/ui_frame.png',pos=(0,0),tick=1,loop=True,label_color='Lavender')
+
+# 头像
+诺兰 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/N.png',pos=框架位置[0,1],tick=1,loop=True,label_color='Lavender')
+斯托克 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/S.png',pos=框架位置[0,0],tick=1,loop=True,label_color='Lavender')
+张安翔 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/Z.png',pos=框架位置[0,2],tick=1,loop=True,label_color='Lavender')
+摩根 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/摩根.png',pos=框架位置[1,0],tick=1,loop=True,label_color='Lavender')
+警员 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/威尔逊.png',pos=框架位置[1,1],tick=1,loop=True,label_color='Lavender')
+朱蒂 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/朱蒂.png',pos=框架位置[1,2],tick=1,loop=True,label_color='Lavender')
+银发服务生 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/银发服务生.png',pos=框架位置[1,1],tick=1,loop=True,label_color='Lavender')
+手机 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/手机.png',pos=框架位置[1,0],tick=1,loop=True,label_color='Lavender')
+特派员 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/特派员.png',pos=框架位置[1,1],tick=1,loop=True,label_color='Lavender')
+出租车 = Animation(filepath='E:/Data/20220419_星尘的研究/media/bg/final/头像/出租车.png',pos=框架位置[1,0],tick=1,loop=True,label_color='Lavender')
 
 # 功能背景
 header1 = Background('E:/Data/20220419_星尘的研究/media/bg/HEADER.png')
@@ -167,6 +226,8 @@ shadow_moon_photo = Animation("E:/Data/20220419_星尘的研究/media/fig/夏都
 study_basis_stardust = Animation("E:/Data/20220419_星尘的研究/media/fig/星尘的研究背景.png",pos=(633,26))
 jack_torrens = Animation("E:/Data/20220419_星尘的研究/media/fig/杰克托伦斯.png",pos=(666,355))
 newer_newspaper = Animation("E:/Data/20220419_星尘的研究/media/fig/广告人剪报.png")
+club_card = Animation("E:/Data/20220419_星尘的研究/media/fig/俱乐部卡片.png",pos=(609,319))
+second_news = Animation("E:/Data/20220419_星尘的研究/media/fig/second_news.png",pos=(598,21))
 
 # 标记线索
 clues_tag1 = Animation("E:/Data/20220419_星尘的研究/media/fig/标记线索1.png")
