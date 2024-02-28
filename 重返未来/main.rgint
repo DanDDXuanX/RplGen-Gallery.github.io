@@ -1,0 +1,346 @@
+{
+    "meta":{
+        "name":"重返未来",
+        "cover":"@/cover.jpg",
+        "describe":"重返未来1999，同人UI模板",
+        "author":"GULILI",
+        "licence":"可以用于任何用途"
+    },
+    "config": {
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "BbS",
+            "Bb"
+        ]
+    },
+    "media": {
+        "static":{
+            "主文本": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSerifSC-SemiBold.otf",
+                "fontsize": 32,
+                "color": [
+                    221,
+                    215,
+                    207,
+                    255
+                ],
+                "line_limit": 38,
+                "label_color": "Cerulean"
+            },
+            "姓名文本": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSerifSC-SemiBold.otf",
+                "fontsize": 43,
+                "color": [
+                    173,
+                    158,
+                    144,
+                    255
+                ],
+                "line_limit": 10,
+                "label_color": "Cerulean"
+            },
+            "称号字体": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSerifSC-SemiBold.otf",
+                "fontsize": 25,
+                "color": [
+                    125,
+                    105,
+                    87,
+                    255
+                ],
+                "line_limit": 15,
+                "label_color": "Cerulean"
+            },
+            "头部信息右上": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSerifSC-SemiBold.otf",
+                "fontsize": 32,
+                "color": [
+                    221,
+                    215,
+                    207,
+                    255
+                ],
+                "line_limit": 10,
+                "label_color": "Mango"
+            },
+            "头部信息左上": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSerifSC-SemiBold.otf",
+                "fontsize": 32,
+                "color": [
+                    221,
+                    215,
+                    207,
+                    255
+                ],
+                "line_limit": 15,
+                "label_color": "Mango"
+            },
+            "富文本": {
+                "type": "RichText",
+                "fontfile": "@/media/SourceHanSerifSC-SemiBold.otf",
+                "fontsize": 32,
+                "color": [
+                    221,
+                    215,
+                    207,
+                    255
+                ],
+                "line_limit": 38,
+                "scale": 1.0,
+                "sub_key": [
+                    "骰子"
+                ],
+                "sub_icon": [
+                    "@/media/骰子图标.png"
+                ],
+                "label_color": "Cerulean"
+            },
+            "骰子对话框": {
+                "type": "Bubble",
+                "filepath": "@/media/骰子对话框.png",
+                "scale": 1.0,
+                "Main_Text": "$富文本",
+                "Header_Text": "$姓名文本",
+                "pos": [
+                    0,
+                    800
+                ],
+                "mt_pos": [
+                    400,
+                    139
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    427,
+                    61
+                ],
+                "ht_rotate": 0,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "left",
+                "line_distance": 1.5,
+                "line_num_est": 3,
+                "label_color": "Cerulean"
+            },
+            "对话框": {
+                "type": "Balloon",
+                "filepath": "@/media/对话框.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本",
+                "Header_Text": [
+                    "$姓名文本",
+                    "$称号字体"
+                ],
+                "pos": [
+                    0,
+                    800
+                ],
+                "mt_pos": [
+                    400,
+                    139
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    [
+                        169,
+                        60
+                    ],
+                    [
+                        604,
+                        87
+                    ]
+                ],
+                "ht_rotate": [
+                    0,
+                    0
+                ],
+                "ht_target": [
+                    "显示名",
+                    "称号"
+                ],
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": [
+                    "right",
+                    "left"
+                ],
+                "line_distance": 1.5,
+                "line_num_est": 3,
+                "label_color": "Cerulean"
+            },
+            "头部信息": {
+                "type": "Bubble",
+                "filepath": "@/media/头部信息.png",
+                "scale": 1.0,
+                "Main_Text": "$头部信息左上",
+                "Header_Text": "$头部信息右上",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    49,
+                    70
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    1567,
+                    30
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "right",
+                "line_distance": 2.0,
+                "line_num_est": 6,
+                "label_color": "Mango"
+            },
+            "立绘": {
+                "type": "Animation",
+                "filepath": "@/media/立绘.png",
+                "scale": 1.0,
+                "pos": [
+                    448,
+                    117
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Rose"
+            },
+            "背景": {
+                "type": "Background",
+                "filepath": "@/media/背景.jpg",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Violet"
+            }
+        },
+        "dynamic":{}
+    },
+    "charactor": {
+        "custom":["显示名","称号"],
+        "header":"显示名",
+        "static":{
+            "骰子": {
+                "Name": "骰子",
+                "Subtype": "default",
+                "Animation": "NA",
+                "Bubble": "骰子对话框",
+                "显示名": "骰子",
+                "称号": "/ 随机世界的主宰者"
+            }
+        },
+        "dynamic":{
+            "0":{
+                "Animation": "立绘",
+                "Bubble": "对话框",
+                "称号":"/ 回声工坊的小工程师"
+            }
+        }
+    },
+    "preset": {
+        "0": {
+            "type": "comment",
+            "content": "! "
+        },
+        "1": {
+            "type": "comment",
+            "content": " 智能模板: 重返未来。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "set",
+            "target": "am_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 10
+            }
+        },
+        "4": {
+            "type": "set",
+            "target": "bb_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 10
+            }
+        },
+        "5": {
+            "type": "set",
+            "target": "bg_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 30
+            }
+        },
+        "6": {
+            "type": "set",
+            "target": "formula",
+            "value_type": "function",
+            "value": "sincurve"
+        },
+        "7": {
+            "type": "set",
+            "target": "method_protocol",
+            "value_type": "protocol",
+            "value": "none"
+        },
+        "8": {
+            "type": "blank"
+        },
+        "9": {
+            "type": "comment",
+            "content": " 放置头部信息"
+        },
+        "10": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "replace",
+                "method_dur": 0
+            },
+            "object": {
+                "bubble": "头部信息",
+                "header_text": "◇当前·位置",
+                "main_text": "在回声工坊中，#你可以使用常驻气泡，#显示很多很多的辅助信息",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "11": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "背景"
+        },
+        "12": {
+            "type": "blank"
+        }
+    },
+    "example":null
+}
