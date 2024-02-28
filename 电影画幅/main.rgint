@@ -1,0 +1,294 @@
+{
+    "meta":{
+        "name":"电影画幅",
+        "cover":"@/cover.jpg",
+        "describe":"黑边框版本，适合安科、跑团、同人小剧场使用。",
+        "author":"GULILI",
+        "licence":"可以用于任何用途，无需注明作者"
+    },
+    "config": {
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "media": {
+        "static":{
+            "姓名": {
+                "type": "StrokeText",
+                "fontfile": "@/media/SourceHanSansCN-Heavy#1.otf",
+                "fontsize": 48,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 10,
+                "edge_color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "edge_width": 3,
+                "projection": "C",
+                "label_color": "Mango"
+            },
+            "主文本": {
+                "type": "StrokeText",
+                "fontfile": "@/media/SourceHanSansCN-Bold#1.otf",
+                "fontsize": 28,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 45,
+                "edge_color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "edge_width": 2,
+                "projection": "C",
+                "label_color": "Mango"
+            },
+            "对话框": {
+                "type": "Bubble",
+                "filepath": "@/media/对话框使用.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本",
+                "Header_Text": "$姓名",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    362,
+                    865
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    377,
+                    771
+                ],
+                "ht_rotate": 0,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "left",
+                "line_distance": 1.7,
+                "line_num_est": 4,
+                "label_color": "Cerulean"
+            },
+            "默认背景": {
+                "type": "Background",
+                "filepath": "@/media/背景.jpg",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            },
+            "立绘": {
+                "type": "Animation",
+                "filepath": "@/media/立绘.png",
+                "scale": 1.0,
+                "pos": [
+                    1001,
+                    100
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Lavender"
+            },
+            "位置信息": {
+                "type": "StrokeText",
+                "fontfile": "@/media/SourceHanSansCN-Bold#1.otf",
+                "fontsize": 36,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 10,
+                "edge_color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "edge_width": 2,
+                "projection": "C",
+                "label_color": "Mango"
+            },
+            "黑条": {
+                "type": "Bubble",
+                "filepath": "@/media/黑条.png",
+                "scale": 1.0,
+                "Main_Text": "$位置信息",
+                "Header_Text": null,
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    1008,
+                    791
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "right",
+                "vertical_align": "top",
+                "head_align": "left",
+                "line_distance": 1.5,
+                "line_num_est": 1,
+                "label_color": "Lavender"
+            },
+            "对话框骰子": {
+                "type": "Bubble",
+                "filepath": "@/media/对话框骰子.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本",
+                "Header_Text": "$姓名",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    362,
+                    865
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    377,
+                    771
+                ],
+                "ht_rotate": 0,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "left",
+                "line_distance": 1.7,
+                "line_num_est": 4,
+                "label_color": "Cerulean"
+            }
+        },
+        "dynamic":{}
+    },
+    "charactor": {
+        "custom":["显示名"],
+        "header":"显示名",
+        "static":{
+            "骰子": {
+                "Name": "骰子",
+                "Subtype": "default",
+                "Animation": "NA",
+                "Bubble": "对话框骰子",
+                "显示名": "骰子"
+            }
+        },
+        "dynamic":{
+            "0":{
+                "Animation": "立绘",
+                "Bubble": "对话框"
+            }
+        }
+    },
+    "preset": {
+        "0": {
+            "type": "comment",
+            "content": "! "
+        },
+        "1": {
+            "type": "comment",
+            "content": " 智能模板: 电影画幅。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "set",
+            "target": "secondary_alpha",
+            "value_type": "digit",
+            "value": 100
+        },
+        "4": {
+            "type": "set",
+            "target": "secondary_brightness",
+            "value_type": "digit",
+            "value": 60
+        },
+        "5": {
+            "type": "set",
+            "target": "method_protocol",
+            "value_type": "protocol",
+            "value": "charactor"
+        },
+        "6": {
+            "type": "set",
+            "target": "am_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "black",
+                "method_dur": 20
+            }
+        },
+        "7": {
+            "type": "set",
+            "target": "formula",
+            "value_type": "function",
+            "value": "sincurve"
+        },
+        "8": {
+            "type": "blank"
+        },
+        "9": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": {
+                "bubble": "黑条",
+                "header_text": "",
+                "main_text": "◇花田·屋外",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "10": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "默认背景"
+        },
+        "11": {
+            "type": "blank"
+        }
+    },
+    "example":null
+}

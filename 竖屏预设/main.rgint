@@ -124,11 +124,11 @@
     "preset":{
         "0": {
             "type": "comment",
-            "content": "! "
+            "content": "! 回声工坊"
         },
         "1": {
             "type": "comment",
-            "content": " 剧本: 空白的剧本文件。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+            "content": " 智能模板: 竖屏预设。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
         },
         "2": {
             "type": "blank"
