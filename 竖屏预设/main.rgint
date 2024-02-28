@@ -1,0 +1,182 @@
+{
+    "meta":{
+        "name":"竖屏模板",
+        "cover":"./assets/default_cover/rplgenlight.jpg",
+        "describe":"回声工坊2的基础竖屏模板",
+        "author":"Betelgeuse Industry",
+        "licence":"可以用于任何用途"
+    },
+    "config": {
+        "Width": 1080,
+        "Height": 1920,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "media": {
+        "static":{
+            "默认立绘": {
+                "type": "Animation",
+                "filepath": "@/media/默认立绘.png",
+                "scale": 1.0,
+                "pos": [
+                    211,
+                    487
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Lavender"
+            },
+            "背景": {
+                "type": "Background",
+                "filepath": "@/media/背景.jpg",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            },
+            "主文本": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSerifSC-Medium.otf",
+                "fontsize": 48,
+                "color": [
+                    230,
+                    230,
+                    230,
+                    255
+                ],
+                "line_limit": 20,
+                "label_color": "Lavender"
+            },
+            "头文本": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSerifSC-Medium.otf",
+                "fontsize": 60,
+                "color": [
+                    230,
+                    230,
+                    230,
+                    255
+                ],
+                "line_limit": 10,
+                "label_color": "Lavender"
+            },
+            "气泡": {
+                "type": "Bubble",
+                "filepath": "@/media/气泡.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本",
+                "Header_Text": "$头文本",
+                "pos": [
+                    0,
+                    1436
+                ],
+                "mt_pos": [
+                    63,
+                    146
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    19,
+                    2
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "center",
+                "vertical_align": "center",
+                "head_align": "left",
+                "line_distance": 1.5,
+                "line_num_est": 4,
+                "label_color": "Lavender"
+            }
+        },
+        "dynamic":{}
+    },
+    "charactor": {
+        "custom":["显示名"],
+        "header":"显示名",
+        "static":{
+            "KP":{
+                "Name":"KP",
+                "Subtype":"default",
+                "Animation": "NA",
+                "Bubble": "气泡",
+                "显示名": "KP"
+            }
+        },
+        "dynamic":{
+            "0":{
+                "Animation": "默认立绘",
+                "Bubble": "气泡"
+            }
+        }
+    },
+    "preset":{
+        "0": {
+            "type": "comment",
+            "content": "! "
+        },
+        "1": {
+            "type": "comment",
+            "content": " 剧本: 空白的剧本文件。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "set",
+            "target": "am_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 30
+            }
+        },
+        "4": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "w2w",
+                "method_dur": 2
+            }
+        },
+        "5": {
+            "type": "set",
+            "target": "speech_speed",
+            "value_type": "digit",
+            "value": 900
+        },
+        "6": {
+            "type": "set",
+            "target": "method_protocol",
+            "value_type": "protocol",
+            "value": "charactor"
+        },
+        "7": {
+            "type": "blank"
+        },
+        "8": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "背景"
+        },
+        "9": {
+            "type": "blank"
+        }
+    },
+    "example":null
+}
