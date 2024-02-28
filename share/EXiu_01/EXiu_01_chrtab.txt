@@ -1,5 +1,0 @@
-Name	Subtype	Animation	Bubble
-测试	default	NA	speech_bubble
-主持人	default	NA	speech_bubble
-旁白	default	NA	center_bubble
-顶部提示	default	NA	top_bubble

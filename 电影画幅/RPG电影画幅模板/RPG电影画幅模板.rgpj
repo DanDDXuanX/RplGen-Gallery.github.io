@@ -1,0 +1,128 @@
+{
+    "config": {
+        "Name": "RPG\u7535\u5f71\u753b\u5e45\u6a21\u677f",
+        "Cover": "\u65e0",
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "mediadef": {
+        "\u5bf9\u8bdd\u6846": {
+            "type": "Bubble",
+            "filepath": "D:/GitHub/\u56de\u58f0\u5de5\u574a-RPG\u7535\u5f71\u753b\u5e45\u5267\u60c5\u5bf9\u8bdd\u6a21\u677f/\u5bf9\u8bdd\u6846\u4f7f\u7528.png",
+            "scale": 1.0,
+            "Main_Text": "$\u4e3b\u6587\u672c",
+            "Header_Text": "$\u59d3\u540d",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                362,
+                865
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                377,
+                771
+            ],
+            "ht_rotate": 0,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.7,
+            "line_num_est": 4,
+            "label_color": "Cerulean"
+        },
+        "\u59d3\u540d": {
+            "type": "StrokeText",
+            "fontfile": "D:/GitHub/\u56de\u58f0\u5de5\u574a-RPG\u7535\u5f71\u753b\u5e45\u5267\u60c5\u5bf9\u8bdd\u6a21\u677f/\u5b57\u4f53/SourceHanSansCN-Heavy#1.otf",
+            "fontsize": 48,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 20,
+            "edge_color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "edge_width": 3,
+            "projection": "C",
+            "label_color": "Mango"
+        },
+        "\u4e3b\u6587\u672c": {
+            "type": "StrokeText",
+            "fontfile": "D:/GitHub/\u56de\u58f0\u5de5\u574a-RPG\u7535\u5f71\u753b\u5e45\u5267\u60c5\u5bf9\u8bdd\u6a21\u677f/\u5b57\u4f53/SourceHanSansCN-Bold#1.otf",
+            "fontsize": 28,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 45,
+            "edge_color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "edge_width": 3,
+            "projection": "C",
+            "label_color": "Mango"
+        },
+        "\u5bcc\u6587\u672c\u4f7f\u7528": {
+            "type": "RichText",
+            "fontfile": "D:/GitHub/\u56de\u58f0\u5de5\u574a-RPG\u7535\u5f71\u753b\u5e45\u5267\u60c5\u5bf9\u8bdd\u6a21\u677f/\u5b57\u4f53/SourceHanSansCN-Bold#1.otf",
+            "fontsize": 28,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 45,
+            "label_color": "Mango"
+        },
+        "\u9644\u8d60_\u9ab0\u5b50": {
+            "type": "Animation",
+            "filepath": "D:/GitHub/\u56de\u58f0\u5de5\u574a-RPG\u7535\u5f71\u753b\u5e45\u5267\u60c5\u5bf9\u8bdd\u6a21\u677f/\u9644\u8d60-\u9ab0\u5b50.png",
+            "scale": 1.0,
+            "pos": [
+                20,
+                750
+            ],
+            "tick": 1,
+            "loop": true,
+            "label_color": "Lavender"
+        },
+        "\u65b0\u5efa\u80cc\u666f": {
+            "type": "Background",
+            "filepath": "D:/GitHub/\u56de\u58f0\u5de5\u574a-RPG\u7535\u5f71\u753b\u5e45\u5267\u60c5\u5bf9\u8bdd\u6a21\u677f/\u9ed1\u6761.png",
+            "scale": 1.0,
+            "pos": [
+                0,
+                0
+            ],
+            "label_color": "Lavender"
+        }
+    },
+    "chartab": {},
+    "logfile": {}
+}
