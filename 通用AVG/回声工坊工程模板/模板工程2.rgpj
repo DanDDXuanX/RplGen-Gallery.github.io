@@ -1,0 +1,402 @@
+{
+    "config": {
+        "Name": "\u6a21\u677f\u5de5\u7a0b2",
+        "Cover": "\u65e0",
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "mediadef": {
+        "\u84dd\u9ec4\u8272\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u7ecf\u5178\u84dd\u8272/\u84dd\u8272\u98ce\u683c-\u5bf9\u8bdd\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u84dd\u9ec4\u4e3b\u6587\u672c",
+            "Header_Text": "$\u84dd\u9ec4\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Blue"
+        },
+        "\u7eff\u7ea2\u8272\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u7eff\u8272\u7248\u672c/\u7eff\u8272-\u5bf9\u8bdd\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u7eff\u7ea2\u4e3b\u6587\u672c",
+            "Header_Text": "$\u7eff\u7ea2\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Caribbean"
+        },
+        "\u9ed1\u7ea2\u8272\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u901a\u7528\u9ed1\u8272/\u9ed1\u8272\u901a\u7528\u98ce\u683c-\u5bf9\u8bdd\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u7ea2\u9ed1\u4e3b\u6587\u672c",
+            "Header_Text": "$\u7ea2\u9ed1\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Brown"
+        },
+        "\u84dd\u9ec4\u5934\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u5b57\u4f53/MiSans-Bold.ttf",
+            "fontsize": 70,
+            "color": [
+                36,
+                63,
+                90,
+                255
+            ],
+            "line_limit": 5,
+            "label_color": "Cerulean"
+        },
+        "\u84dd\u9ec4\u4e3b\u6587\u672c": {
+            "type": "StrokeText",
+            "fontfile": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u5b57\u4f53/MiSans-Semibold.ttf",
+            "fontsize": 42,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 33,
+            "edge_color": [
+                42,
+                89,
+                170,
+                255
+            ],
+            "edge_width": 4,
+            "projection": "C",
+            "label_color": "Forest"
+        },
+        "\u7eff\u7ea2\u4e3b\u6587\u672c": {
+            "type": "StrokeText",
+            "fontfile": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u5b57\u4f53/MiSans-Semibold.ttf",
+            "fontsize": 42,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 33,
+            "edge_color": [
+                42,
+                89,
+                170,
+                255
+            ],
+            "edge_width": 4,
+            "projection": "C",
+            "label_color": "Forest"
+        },
+        "\u7ea2\u9ed1\u4e3b\u6587\u672c": {
+            "type": "StrokeText",
+            "fontfile": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u5b57\u4f53/MiSans-Semibold.ttf",
+            "fontsize": 42,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 33,
+            "edge_color": [
+                18,
+                37,
+                70,
+                255
+            ],
+            "edge_width": 4,
+            "projection": "C",
+            "label_color": "Forest"
+        },
+        "\u7eff\u7ea2\u5934\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u5b57\u4f53/MiSans-Bold.ttf",
+            "fontsize": 70,
+            "color": [
+                36,
+                63,
+                90,
+                255
+            ],
+            "line_limit": 5,
+            "label_color": "Cerulean"
+        },
+        "\u7ea2\u9ed1\u5934\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u5b57\u4f53/MiSans-Bold.ttf",
+            "fontsize": 70,
+            "color": [
+                170,
+                42,
+                42,
+                255
+            ],
+            "line_limit": 5,
+            "label_color": "Cerulean"
+        },
+        "\u5bcc\u6587\u672c": {
+            "type": "RichText",
+            "fontfile": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u5b57\u4f53/MiSans-Semibold.ttf",
+            "fontsize": 42,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 30,
+            "label_color": "Teal"
+        },
+        "\u6697\u6740\u8005": {
+            "type": "Animation",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u9644\u8d60-\u6742\u9c7c\u6697\u6740\u8005\u7acb\u7ed8.png",
+            "scale": 0.6,
+            "pos": [
+                689,
+                -27
+            ],
+            "tick": 1,
+            "loop": true,
+            "label_color": "Brown"
+        },
+        "\u84dd\u9ec4\u8272\u6c14\u6ce12": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u7ecf\u5178\u84dd\u8272/\u84dd\u8272-\u5e26\u5934\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u84dd\u9ec4\u4e3b\u6587\u672c",
+            "Header_Text": "$\u84dd\u9ec4\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Blue"
+        },
+        "\u84dd\u9ec4\u8272\u6c14\u6ce13": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u7ecf\u5178\u84dd\u8272/\u84dd\u8272-\u6574\u5408.png",
+            "scale": 1.0,
+            "Main_Text": "$\u84dd\u9ec4\u4e3b\u6587\u672c",
+            "Header_Text": "$\u84dd\u9ec4\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Blue"
+        },
+        "\u7eff\u7ea2\u8272\u6c14\u6ce12": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u7eff\u8272\u7248\u672c/\u9c9c\u8273\u98ce\u683c-\u7eff\u8272-\u5e26\u5934\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u7eff\u7ea2\u4e3b\u6587\u672c",
+            "Header_Text": "$\u7eff\u7ea2\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Caribbean"
+        },
+        "\u7eff\u7ea2\u8272\u6c14\u6ce13": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u7eff\u8272\u7248\u672c/\u9c9c\u8273\u98ce\u683c-\u7eff\u8272-\u6574\u5408.png",
+            "scale": 1.0,
+            "Main_Text": "$\u7eff\u7ea2\u4e3b\u6587\u672c",
+            "Header_Text": "$\u7eff\u7ea2\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Caribbean"
+        },
+        "\u9ed1\u7ea2\u8272\u6c14\u6ce12": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u901a\u7528\u9ed1\u8272/\u9ed1\u8272\u901a\u7528\u98ce\u683c-\u5e26\u5934\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u7ea2\u9ed1\u4e3b\u6587\u672c",
+            "Header_Text": "$\u7ea2\u9ed1\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Brown"
+        },
+        "\u9ed1\u7ea2\u8272\u6c14\u6ce13": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u901a\u7528\u98ce\u683c/\u901a\u7528\u9ed1\u8272/\u9ed1\u8272\u901a\u7528\u98ce\u683c-\u6574\u5408.png",
+            "scale": 1.0,
+            "Main_Text": "$\u7ea2\u9ed1\u4e3b\u6587\u672c",
+            "Header_Text": "$\u7ea2\u9ed1\u5934\u6587\u672c",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                463,
+                829
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                493,
+                728
+            ],
+            "ht_rotate": -3,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Brown"
+        }
+    },
+    "chartab": {},
+    "logfile": {}
+}

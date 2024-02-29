@@ -1,0 +1,419 @@
+{
+    "config": {
+        "Name": "\u65b0\u5efa\u7a7a\u767d\u9879\u76ee",
+        "Cover": "\u65e0",
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "mediadef": {
+        "\u4e3b\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-Medium#1.otf",
+            "fontsize": 33,
+            "color": [
+                50,
+                62,
+                76,
+                255
+            ],
+            "line_limit": 19,
+            "label_color": "Lavender"
+        },
+        "\u5934\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-Medium#1.otf",
+            "fontsize": 34,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 8,
+            "label_color": "Lavender"
+        },
+        "A\u7248\u804a\u5929\u6846": {
+            "type": "ChatWindow",
+            "filepath": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u804a\u5929\u6846A-\u6574\u5408.png",
+            "scale": 1.0,
+            "sub_key": [
+                "\u4e3b\u6301\u4eba\u6c14\u6ce1",
+                "\u73a9\u5bb6A\u6c14\u6ce1",
+                "\u73a9\u5bb6B\u6c14\u6ce1",
+                "\u73a9\u5bb6C\u6c14\u6ce1"
+            ],
+            "sub_Bubble": [
+                "$A\u7248\u804a\u5929\u6846\u6c14\u6ce1",
+                "$A\u7248\u804a\u5929\u6846\u6c14\u6ce1",
+                "$A\u7248\u804a\u5929\u6846\u6c14\u6ce1",
+                "$A\u7248\u804a\u5929\u6846\u6c14\u6ce1"
+            ],
+            "sub_Anime": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "sub_align": [
+                "left",
+                "left",
+                "left",
+                "left"
+            ],
+            "pos": [
+                0,
+                0
+            ],
+            "sub_pos": [
+                422,
+                51
+            ],
+            "sub_end": [
+                1358,
+                1008
+            ],
+            "am_left": 422,
+            "am_right": 586,
+            "sub_distance": 30,
+            "label_color": "Lavender"
+        },
+        "A\u7248\u804a\u5929\u6846\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u804a\u5929\u6846A-\u6c14\u6ce1.png",
+            "scale": 1.0,
+            "Main_Text": "$\u4e3b\u6587\u672c",
+            "Header_Text": "$\u5934\u6587\u672c",
+            "pos": [
+                405,
+                466
+            ],
+            "mt_pos": [
+                235,
+                81
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                217,
+                29
+            ],
+            "ht_rotate": 0,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "A\u7248\u6c14\u6ce1\u6846\u7ebf\u7d22\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-Medium#1.otf",
+            "fontsize": 29,
+            "color": [
+                236,
+                234,
+                237,
+                255
+            ],
+            "line_limit": 11,
+            "label_color": "Lavender"
+        },
+        "A\u7248\u7ebf\u7d22\u6807\u9898\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-ExtraLight#1.otf",
+            "fontsize": 60,
+            "color": [
+                236,
+                234,
+                237,
+                255
+            ],
+            "line_limit": 1,
+            "label_color": "Lavender"
+        },
+        "A\u7248\u5e38\u9a7b\u6c14\u6ce1": {
+            "type": "Balloon",
+            "filepath": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u7a7a\u767d\u56fe\u7247.png",
+            "scale": 1.0,
+            "Main_Text": "$A\u7248\u6c14\u6ce1\u6846\u7ebf\u7d22\u6587\u672c",
+            "Header_Text": [
+                "$A\u7248\u7ebf\u7d22\u6807\u9898\u6587\u672c",
+                "$A\u7248\u5730\u70b9\u6587\u672c",
+                "$A\u7248\u7ae0\u8282\u7ebf\u7d22\u6982\u62ec"
+            ],
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                48,
+                458
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                [
+                    318,
+                    23
+                ],
+                [
+                    1438,
+                    27
+                ],
+                [
+                    109,
+                    371
+                ]
+            ],
+            "ht_rotate": [
+                0,
+                0,
+                0
+            ],
+            "ht_target": [
+                "Name",
+                "\u5730\u70b9",
+                "\u7ebf\u7d22\u6982\u62ec"
+            ],
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": [
+                "left",
+                "left",
+                "left"
+            ],
+            "line_distance": 1.8,
+            "line_num_est": 10,
+            "label_color": "Lavender"
+        },
+        "A\u7248\u5730\u70b9\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-Medium#1.otf",
+            "fontsize": 28,
+            "color": [
+                50,
+                62,
+                76,
+                255
+            ],
+            "line_limit": 8,
+            "label_color": "Lavender"
+        },
+        "A\u7248\u7ae0\u8282\u7ebf\u7d22\u6982\u62ec": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-Bold#1.otf",
+            "fontsize": 28,
+            "color": [
+                236,
+                234,
+                237,
+                255
+            ],
+            "line_limit": 8,
+            "label_color": "Lavender"
+        },
+        "B\u7248\u804a\u5929\u6846": {
+            "type": "ChatWindow",
+            "filepath": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u804a\u5929\u6846B-\u6574\u5408.png",
+            "scale": 1.0,
+            "sub_key": [
+                "\u4e3b\u6301\u4eba\u6c14\u6ce1",
+                "\u73a9\u5bb6A\u6c14\u6ce1",
+                "\u73a9\u5bb6B\u6c14\u6ce1",
+                "\u73a9\u5bb6C\u6c14\u6ce1"
+            ],
+            "sub_Bubble": [
+                "$B\u7248\u804a\u5929\u6846\u6c14\u6ce1",
+                "$B\u7248\u804a\u5929\u6846\u6c14\u6ce1",
+                "$B\u7248\u804a\u5929\u6846\u6c14\u6ce1",
+                "$B\u7248\u804a\u5929\u6846\u6c14\u6ce1"
+            ],
+            "sub_Anime": [
+                null,
+                null,
+                null,
+                null
+            ],
+            "sub_align": [
+                "left",
+                "left",
+                "left",
+                "left"
+            ],
+            "pos": [
+                0,
+                0
+            ],
+            "sub_pos": [
+                560,
+                30
+            ],
+            "sub_end": [
+                1633,
+                1052
+            ],
+            "am_left": 562,
+            "am_right": 762,
+            "sub_distance": 0,
+            "label_color": "Lavender"
+        },
+        "B\u7248\u804a\u5929\u6846\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u804a\u5929\u6846B-\u6c14\u6ce1.png",
+            "scale": 1.0,
+            "Main_Text": "$\u4e3b\u6587\u672cB\u7248",
+            "Header_Text": "$\u5934\u6587\u672c",
+            "pos": [
+                405,
+                466
+            ],
+            "mt_pos": [
+                261,
+                93
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                250,
+                34
+            ],
+            "ht_rotate": 0,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u4e3b\u6587\u672cB\u7248": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-Medium#1.otf",
+            "fontsize": 33,
+            "color": [
+                50,
+                62,
+                76,
+                255
+            ],
+            "line_limit": 23,
+            "label_color": "Lavender"
+        },
+        "B\u7248\u5e38\u9a7b\u6c14\u6ce1": {
+            "type": "Balloon",
+            "filepath": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u7a7a\u767d\u56fe\u7247.png",
+            "scale": 1.0,
+            "Main_Text": "$B\u7248\u6c14\u6ce1\u6846\u7ebf\u7d22\u6587\u672c",
+            "Header_Text": [
+                "$B\u7248\u7ebf\u7d22\u6807\u9898\u6587\u672c",
+                "$A\u7248\u5730\u70b9\u6587\u672c",
+                "$B\u7248\u7ae0\u8282\u7ebf\u7d22\u6982\u62ec"
+            ],
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                1704,
+                396
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                [
+                    1643,
+                    394
+                ],
+                [
+                    64,
+                    27
+                ],
+                [
+                    1670,
+                    332
+                ]
+            ],
+            "ht_rotate": [
+                0,
+                0,
+                0
+            ],
+            "ht_target": [
+                "Name",
+                "\u5730\u70b9",
+                "\u7ebf\u7d22\u6982\u62ec"
+            ],
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": [
+                "left",
+                "left",
+                "left"
+            ],
+            "line_distance": 1.9,
+            "line_num_est": 10,
+            "label_color": "Lavender"
+        },
+        "B\u7248\u6c14\u6ce1\u6846\u7ebf\u7d22\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-Medium#1.otf",
+            "fontsize": 25,
+            "color": [
+                236,
+                234,
+                237,
+                255
+            ],
+            "line_limit": 7,
+            "label_color": "Lavender"
+        },
+        "B\u7248\u7ebf\u7d22\u6807\u9898\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-ExtraLight#1.otf",
+            "fontsize": 50,
+            "color": [
+                236,
+                234,
+                237,
+                255
+            ],
+            "line_limit": 1,
+            "label_color": "Lavender"
+        },
+        "B\u7248\u7ae0\u8282\u7ebf\u7d22\u6982\u62ec": {
+            "type": "Text",
+            "fontfile": "C:/Users/12290/Desktop/\u804a\u5929\u6846/\u5b57\u4f53/SourceHanSansCN-Bold#1.otf",
+            "fontsize": 33,
+            "color": [
+                236,
+                234,
+                237,
+                255
+            ],
+            "line_limit": 8,
+            "label_color": "Lavender"
+        }
+    },
+    "chartab": {
+        "\u6d4b\u8bd5.default": {
+            "Name": "\u6d4b\u8bd5",
+            "Subtype": "default",
+            "Animation": "NA",
+            "Bubble": "NA",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u5730\u70b9": "init",
+            "\u7ebf\u7d22\u6982\u62ec": "init"
+        }
+    },
+    "logfile": {}
+}
