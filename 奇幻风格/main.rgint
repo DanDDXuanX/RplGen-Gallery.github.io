@@ -1,0 +1,312 @@
+{
+    "meta":{
+        "name":"奇幻风格",
+        "cover":"./assets/default_cover/rplgenlight.jpg",
+        "describe":"提供三种颜色选择，适用于安科、跑团、同人小剧场等，附一张怪物立绘。",
+        "author":"GULILI",
+        "licence":"可以用于任何用途，无需注明作者"
+    },
+    "config": {
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "media": {
+        "static":{
+            "主文本": {
+                "type": "StrokeText",
+                "fontfile": "@/media/SourceHanSerifSC-Bold.otf",
+                "fontsize": 38,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 43,
+                "edge_color": [
+                    32,
+                    32,
+                    32,
+                    255
+                ],
+                "edge_width": 3,
+                "projection": "C",
+                "label_color": "Lavender"
+            },
+            "头文本": {
+                "type": "Text",
+                "fontfile": "./assets/SourceHanSerifSC-Heavy.otf",
+                "fontsize": 48,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 7,
+                "label_color": "Cerulean"
+            },
+            "顶部标语": {
+                "type": "Text",
+                "fontfile": "./assets/SourceHanSerifSC-Heavy.otf",
+                "fontsize": 36,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 10,
+                "label_color": "Cerulean"
+            },
+            "浅色气泡": {
+                "type": "Bubble",
+                "filepath": "@/media/浅色气泡.png",
+                "scale": 1,
+                "Main_Text": "$主文本",
+                "Header_Text": "$头文本",
+                "pos": [
+                    112,
+                    673
+                ],
+                "mt_pos": [
+                    30,
+                    105
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    54,
+                    2
+                ],
+                "ht_rotate": 0,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "center",
+                "line_distance": 1.5,
+                "line_num_est": 4,
+                "label_color": "Iris"
+            },
+            "深色气泡": {
+                "type": "Bubble",
+                "filepath": "@/media/深色气泡.png",
+                "scale": 1,
+                "Main_Text": "$主文本",
+                "Header_Text": "$头文本",
+                "pos": [
+                    112,
+                    673
+                ],
+                "mt_pos": [
+                    30,
+                    105
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    54,
+                    2
+                ],
+                "ht_rotate": 0,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "center",
+                "line_distance": 1.5,
+                "line_num_est": 4,
+                "label_color": "Iris"
+            },
+            "浅色边框": {
+                "type": "Balloon",
+                "filepath": "@/media/浅色边框.png",
+                "scale": 1,
+                "Main_Text": "$顶部标语",
+                "Header_Text": [
+                    "$顶部标语"
+                ],
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    1003,
+                    10
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    [
+                        561,
+                        10
+                    ]
+                ],
+                "ht_rotate": [
+                    0
+                ],
+                "ht_target": [
+                    "Name"
+                ],
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": [
+                    "right"
+                ],
+                "line_distance": 1.5,
+                "line_num_est": 1,
+                "label_color": "Forest"
+            },
+            "深色边框": {
+                "type": "Balloon",
+                "filepath": "@/media/深色边框.png",
+                "scale": 1,
+                "Main_Text": "$顶部标语",
+                "Header_Text": [
+                    "$顶部标语"
+                ],
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    1003,
+                    10
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    [
+                        561,
+                        10
+                    ]
+                ],
+                "ht_rotate": [
+                    0
+                ],
+                "ht_target": [
+                    "Name"
+                ],
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": [
+                    "right"
+                ],
+                "line_distance": 1.5,
+                "line_num_est": 1,
+                "label_color": "Forest"
+            },
+            "背景": {
+                "type": "Background",
+                "filepath": "@/media/背景.jpg",
+                "scale": 1,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            },
+            "立绘": {
+                "type": "Animation",
+                "filepath": "@/media/立绘.png",
+                "scale": 1,
+                "pos": [
+                    451,
+                    120
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Lavender"
+            }
+        },
+        "dynamic":{}
+    },
+    "charactor": {
+        "custom":["显示名"],
+        "header":"显示名",
+        "static":{},
+        "dynamic":{
+            "0":{
+                "Animation": "立绘",
+                "Bubble": "浅色气泡"
+            }
+        }
+    },
+    "preset": {
+        "0": {
+            "type": "comment",
+            "content": "! 回声工坊"
+        },
+        "1": {
+            "type": "comment",
+            "content": " 智能模板: 奇幻风格。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "set",
+            "target": "speech_speed",
+            "value_type": "digit",
+            "value": 600
+        },
+        "4": {
+            "type": "set",
+            "target": "method_protocol",
+            "value_type": "protocol",
+            "value": "charactor"
+        },
+        "5": {
+            "type": "set",
+            "target": "am_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "black",
+                "method_dur": 20
+            }
+        },
+        "6": {
+            "type": "set",
+            "target": "formula",
+            "value_type": "function",
+            "value": "sincurve"
+        },
+        "7": {
+            "type": "blank"
+        },
+        "8": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": {
+                "bubble": "浅色边框",
+                "header_text": "当前时间",
+                "main_text": "当前地点",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "9": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "背景"
+        },
+        "10": {
+            "type": "blank"
+        }
+    },
+    "example":null
+}
