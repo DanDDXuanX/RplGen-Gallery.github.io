@@ -1,0 +1,464 @@
+{
+    "config": {
+        "Name": "\u6a21\u677f\u5de5\u7a0b2",
+        "Cover": "\u65e0",
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "mediadef": {
+        "\u84dd\u9ec4\u5934\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "@/media/MiSans-Bold.ttf",
+            "fontsize": 70,
+            "color": [
+                36,
+                63,
+                90,
+                255
+            ],
+            "line_limit": 5,
+            "label_color": "Cerulean"
+        },
+        "\u84dd\u9ec4\u4e3b\u6587\u672c": {
+            "type": "StrokeText",
+            "fontfile": "@/media/MiSans-Semibold.ttf",
+            "fontsize": 42,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 33,
+            "edge_color": [
+                42,
+                89,
+                170,
+                255
+            ],
+            "edge_width": 4,
+            "projection": "C",
+            "label_color": "Forest"
+        },
+        "\u7eff\u7ea2\u4e3b\u6587\u672c": {
+            "type": "StrokeText",
+            "fontfile": "@/media/MiSans-Semibold.ttf",
+            "fontsize": 42,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 33,
+            "edge_color": [
+                42,
+                89,
+                170,
+                255
+            ],
+            "edge_width": 4,
+            "projection": "C",
+            "label_color": "Forest"
+        },
+        "\u7ea2\u9ed1\u4e3b\u6587\u672c": {
+            "type": "StrokeText",
+            "fontfile": "@/media/MiSans-Semibold.ttf",
+            "fontsize": 42,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 33,
+            "edge_color": [
+                18,
+                37,
+                70,
+                255
+            ],
+            "edge_width": 4,
+            "projection": "C",
+            "label_color": "Forest"
+        },
+        "\u7eff\u7ea2\u5934\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "@/media/MiSans-Bold.ttf",
+            "fontsize": 70,
+            "color": [
+                36,
+                63,
+                90,
+                255
+            ],
+            "line_limit": 5,
+            "label_color": "Cerulean"
+        },
+        "\u7ea2\u9ed1\u5934\u6587\u672c": {
+            "type": "Text",
+            "fontfile": "@/media/MiSans-Bold.ttf",
+            "fontsize": 70,
+            "color": [
+                170,
+                42,
+                42,
+                255
+            ],
+            "line_limit": 5,
+            "label_color": "Cerulean"
+        },
+        "\u6697\u6740\u8005": {
+            "type": "Animation",
+            "filepath": "@/media/\u9644\u8d60-\u6742\u9c7c\u6697\u6740\u8005\u7acb\u7ed8.png",
+            "scale": 0.6,
+            "pos": [
+                689,
+                -27
+            ],
+            "tick": 1,
+            "loop": true,
+            "label_color": "Brown"
+        },
+        "\u9644\u4ef6\u5b57\u4f53\u5de6": {
+            "type": "Text",
+            "fontfile": "@/media/MiSans-Semibold.ttf",
+            "fontsize": 40,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 13,
+            "label_color": "Purple"
+        },
+        "\u9644\u4ef6\u5b57\u4f53\u53f3": {
+            "type": "Text",
+            "fontfile": "@/media/MiSans-Semibold.ttf",
+            "fontsize": 60,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 6,
+            "label_color": "Purple"
+        },
+        "\u84dd\u9ec4\u8272\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "@/media/\u84dd\u8272\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u84dd\u9ec4\u4e3b\u6587\u672c",
+            "Header_Text": "$\u84dd\u9ec4\u5934\u6587\u672c",
+            "pos": [
+                27,
+                683
+            ],
+            "mt_pos": [
+                445,
+                147
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                439,
+                50
+            ],
+            "ht_rotate": -4,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Blue"
+        },
+        "\u7eff\u7ea2\u8272\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "@/media/\u7eff\u8272\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u7eff\u7ea2\u4e3b\u6587\u672c",
+            "Header_Text": "$\u7eff\u7ea2\u5934\u6587\u672c",
+            "pos": [
+                27,
+                683
+            ],
+            "mt_pos": [
+                445,
+                147
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                439,
+                50
+            ],
+            "ht_rotate": -4,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Caribbean"
+        },
+        "\u9ed1\u7ea2\u8272\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "@/media/\u9ed1\u8272\u6846.png",
+            "scale": 1.0,
+            "Main_Text": "$\u7ea2\u9ed1\u4e3b\u6587\u672c",
+            "Header_Text": "$\u7ea2\u9ed1\u5934\u6587\u672c",
+            "pos": [
+                27,
+                683
+            ],
+            "mt_pos": [
+                445,
+                147
+            ],
+            "mt_rotate": -1,
+            "ht_pos": [
+                439,
+                50
+            ],
+            "ht_rotate": -4,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 4,
+            "label_color": "Brown"
+        },
+        "\u84dd\u9ec4\u8272\u9644\u4ef6": {
+            "type": "Bubble",
+            "filepath": "@/media/\u84dd\u8272\u7ec4\u4ef6.png",
+            "scale": 1.0,
+            "Main_Text": "$\u9644\u4ef6\u5b57\u4f53\u53f3",
+            "Header_Text": "$\u9644\u4ef6\u5b57\u4f53\u5de6",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                1539,
+                28
+            ],
+            "mt_rotate": 4,
+            "ht_pos": [
+                30,
+                9
+            ],
+            "ht_rotate": 0,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "center",
+            "line_distance": 1.5,
+            "line_num_est": 1,
+            "label_color": "Blue"
+        },
+        "\u7eff\u7ea2\u8272\u9644\u4ef6": {
+            "type": "Bubble",
+            "filepath": "@/media/\u7eff\u8272\u7ec4\u4ef6.png",
+            "scale": 1.0,
+            "Main_Text": "$\u9644\u4ef6\u5b57\u4f53\u53f3",
+            "Header_Text": "$\u9644\u4ef6\u5b57\u4f53\u5de6",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                1539,
+                28
+            ],
+            "mt_rotate": 4,
+            "ht_pos": [
+                30,
+                9
+            ],
+            "ht_rotate": 0,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "center",
+            "line_distance": 1.5,
+            "line_num_est": 1,
+            "label_color": "Caribbean"
+        },
+        "\u9ed1\u7ea2\u8272\u9644\u4ef6": {
+            "type": "Bubble",
+            "filepath": "@/media/\u9ed1\u8272\u7ec4\u4ef6.png",
+            "scale": 1.0,
+            "Main_Text": "$\u9644\u4ef6\u5b57\u4f53\u53f3",
+            "Header_Text": "$\u9644\u4ef6\u5b57\u4f53\u5de6",
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                1539,
+                28
+            ],
+            "mt_rotate": 4,
+            "ht_pos": [
+                30,
+                9
+            ],
+            "ht_rotate": 0,
+            "ht_target": "Name",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "center",
+            "line_distance": 1.5,
+            "line_num_est": 1,
+            "label_color": "Brown"
+        },
+        "\u80cc\u666f1": {
+            "type": "Background",
+            "filepath": "@/media/\u80cc\u666f1.jpg",
+            "scale": 1.0,
+            "pos": [
+                0,
+                0
+            ],
+            "label_color": "Lavender"
+        },
+        "\u80cc\u666f2": {
+            "type": "Background",
+            "filepath": "@/media/\u80cc\u666f2.jpg",
+            "scale": 1.0,
+            "pos": [
+                0,
+                0
+            ],
+            "label_color": "Lavender"
+        },
+        "\u80cc\u666f3": {
+            "type": "Background",
+            "filepath": "@/media/\u80cc\u666f3.jpg",
+            "scale": 1.0,
+            "pos": [
+                0,
+                0
+            ],
+            "label_color": "Lavender"
+        }
+    },
+    "chartab": {
+        "0.default": {
+            "Name": "0",
+            "Subtype": "default",
+            "Animation": "\u6697\u6740\u8005",
+            "Bubble": "\u84dd\u9ec4\u8272\u6c14\u6ce1",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "\u5468\u65f6\u96e8"
+        },
+        "\u84dd\u8272\u9884\u8bbe.default": {
+            "Name": "\u84dd\u8272\u9884\u8bbe",
+            "Subtype": "default",
+            "Animation": "\u6697\u6740\u8005",
+            "Bubble": "\u84dd\u9ec4\u8272\u6c14\u6ce1",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "\u84dd\u8272\u9884\u8bbe"
+        },
+        "\u7eff\u8272\u9884\u8bbe.default": {
+            "Name": "\u7eff\u8272\u9884\u8bbe",
+            "Subtype": "default",
+            "Animation": "\u6697\u6740\u8005",
+            "Bubble": "\u7eff\u7ea2\u8272\u6c14\u6ce1",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "\u7eff\u8272\u9884\u8bbe"
+        },
+        "\u9ed1\u8272\u9884\u8bbe.default": {
+            "Name": "\u9ed1\u8272\u9884\u8bbe",
+            "Subtype": "default",
+            "Animation": "\u6697\u6740\u8005",
+            "Bubble": "\u9ed1\u7ea2\u8272\u6c14\u6ce1",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "\u9ed1\u8272\u9884\u8bbe"
+        }
+    },
+    "logfile": {
+        "preset": {
+            "0": {
+                "type": "comment",
+                "content": "! D:\\pyenv\\rplgenpy\\python.exe"
+            },
+            "1": {
+                "type": "comment",
+                "content": " preset: \u7a7a\u767d\u7684\u5267\u672c\u6587\u4ef6\u3002\u70b9\u6309\u952e\u76d8Tab\u952e\uff0c\u83b7\u53d6\u547d\u4ee4\u667a\u80fd\u8865\u5168\u3002\u9884\u89c8\u548c\u5bfc\u51fa\u6309\u94ae\u5728\u53f3\u4fa7 ->"
+            },
+            "2": {
+                "type": "blank"
+            },
+            "3": {
+                "type": "set",
+                "target": "method_protocol",
+                "value_type": "protocol",
+                "value": "charactor"
+            },
+            "4": {
+                "type": "set",
+                "target": "am_method_default",
+                "value_type": "method",
+                "value": {
+                    "method": "black",
+                    "method_dur": 10
+                }
+            },
+            "5": {
+                "type": "set",
+                "target": "formula",
+                "value_type": "function",
+                "value": "sincurve"
+            },
+            "6": {
+                "type": "blank"
+            },
+            "7": {
+                "type": "bubble",
+                "bb_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "object": {
+                    "bubble": "\u84dd\u9ec4\u8272\u9644\u4ef6",
+                    "header_text": "BGM:\u300a\u4f60\u7684BGM\u300b",
+                    "main_text": "\u25c7\u573a\u666f\u00b7\u5730\u5740",
+                    "tx_method": {
+                        "method": "all",
+                        "method_dur": 0
+                    }
+                }
+            },
+            "8": {
+                "type": "background",
+                "bg_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "object": "\u80cc\u666f2"
+            }
+        }
+    }
+}

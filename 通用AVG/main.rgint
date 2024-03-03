@@ -1,0 +1,484 @@
+{
+    "meta": {
+        "name": "通用AVG风格",
+        "cover": "@/cover.jpg",
+        "describe": "提供三种颜色选择，适用于安科、跑团、同人小剧场等，附一张怪物立绘。",
+        "author": "GULILI",
+        "licence": "可以用于任何用途，无需注明作者"
+    },
+    "config": {
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "media": {
+        "static": {
+            "蓝黄头文本": {
+                "type": "Text",
+                "fontfile": "@/media/MiSans-Bold.ttf",
+                "fontsize": 70,
+                "color": [
+                    36,
+                    63,
+                    90,
+                    255
+                ],
+                "line_limit": 5,
+                "label_color": "Cerulean"
+            },
+            "蓝黄主文本": {
+                "type": "StrokeText",
+                "fontfile": "@/media/MiSans-Semibold.ttf",
+                "fontsize": 42,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 33,
+                "edge_color": [
+                    42,
+                    89,
+                    170,
+                    255
+                ],
+                "edge_width": 4,
+                "projection": "C",
+                "label_color": "Forest"
+            },
+            "绿红主文本": {
+                "type": "StrokeText",
+                "fontfile": "@/media/MiSans-Semibold.ttf",
+                "fontsize": 42,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 33,
+                "edge_color": [
+                    42,
+                    89,
+                    170,
+                    255
+                ],
+                "edge_width": 4,
+                "projection": "C",
+                "label_color": "Forest"
+            },
+            "红黑主文本": {
+                "type": "StrokeText",
+                "fontfile": "@/media/MiSans-Semibold.ttf",
+                "fontsize": 42,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 33,
+                "edge_color": [
+                    18,
+                    37,
+                    70,
+                    255
+                ],
+                "edge_width": 4,
+                "projection": "C",
+                "label_color": "Forest"
+            },
+            "绿红头文本": {
+                "type": "Text",
+                "fontfile": "@/media/MiSans-Bold.ttf",
+                "fontsize": 70,
+                "color": [
+                    36,
+                    63,
+                    90,
+                    255
+                ],
+                "line_limit": 5,
+                "label_color": "Cerulean"
+            },
+            "红黑头文本": {
+                "type": "Text",
+                "fontfile": "@/media/MiSans-Bold.ttf",
+                "fontsize": 70,
+                "color": [
+                    170,
+                    42,
+                    42,
+                    255
+                ],
+                "line_limit": 5,
+                "label_color": "Cerulean"
+            },
+            "附件字体左": {
+                "type": "Text",
+                "fontfile": "@/media/MiSans-Semibold.ttf",
+                "fontsize": 40,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 13,
+                "label_color": "Purple"
+            },
+            "附件字体右": {
+                "type": "Text",
+                "fontfile": "@/media/MiSans-Semibold.ttf",
+                "fontsize": 60,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 6,
+                "label_color": "Purple"
+            },
+            "暗杀者": {
+                "type": "Animation",
+                "filepath": "@/media/附赠-杂鱼暗杀者立绘.png",
+                "scale": 0.6,
+                "pos": [
+                    689,
+                    -27
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Brown"
+            },
+            "蓝黄色气泡": {
+                "type": "Bubble",
+                "filepath": "@/media/蓝色框.png",
+                "scale": 1.0,
+                "Main_Text": "$蓝黄主文本",
+                "Header_Text": "$蓝黄头文本",
+                "pos": [
+                    27,
+                    683
+                ],
+                "mt_pos": [
+                    445,
+                    147
+                ],
+                "mt_rotate": -1,
+                "ht_pos": [
+                    439,
+                    50
+                ],
+                "ht_rotate": -4,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "left",
+                "line_distance": 1.5,
+                "line_num_est": 4,
+                "label_color": "Blue"
+            },
+            "绿红色气泡": {
+                "type": "Bubble",
+                "filepath": "@/media/绿色框.png",
+                "scale": 1.0,
+                "Main_Text": "$绿红主文本",
+                "Header_Text": "$绿红头文本",
+                "pos": [
+                    27,
+                    683
+                ],
+                "mt_pos": [
+                    445,
+                    147
+                ],
+                "mt_rotate": -1,
+                "ht_pos": [
+                    439,
+                    50
+                ],
+                "ht_rotate": -4,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "left",
+                "line_distance": 1.5,
+                "line_num_est": 4,
+                "label_color": "Caribbean"
+            },
+            "黑红色气泡": {
+                "type": "Bubble",
+                "filepath": "@/media/黑色框.png",
+                "scale": 1.0,
+                "Main_Text": "$红黑主文本",
+                "Header_Text": "$红黑头文本",
+                "pos": [
+                    27,
+                    683
+                ],
+                "mt_pos": [
+                    445,
+                    147
+                ],
+                "mt_rotate": -1,
+                "ht_pos": [
+                    439,
+                    50
+                ],
+                "ht_rotate": -4,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "left",
+                "line_distance": 1.5,
+                "line_num_est": 4,
+                "label_color": "Brown"
+            },
+            "蓝黄色附件": {
+                "type": "Bubble",
+                "filepath": "@/media/蓝色组件.png",
+                "scale": 1.0,
+                "Main_Text": "$附件字体右",
+                "Header_Text": "$附件字体左",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    1539,
+                    28
+                ],
+                "mt_rotate": 4,
+                "ht_pos": [
+                    30,
+                    9
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "center",
+                "line_distance": 1.5,
+                "line_num_est": 1,
+                "label_color": "Blue"
+            },
+            "绿红色附件": {
+                "type": "Bubble",
+                "filepath": "@/media/绿色组件.png",
+                "scale": 1.0,
+                "Main_Text": "$附件字体右",
+                "Header_Text": "$附件字体左",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    1539,
+                    28
+                ],
+                "mt_rotate": 4,
+                "ht_pos": [
+                    30,
+                    9
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "center",
+                "line_distance": 1.5,
+                "line_num_est": 1,
+                "label_color": "Caribbean"
+            },
+            "黑红色附件": {
+                "type": "Bubble",
+                "filepath": "@/media/黑色组件.png",
+                "scale": 1.0,
+                "Main_Text": "$附件字体右",
+                "Header_Text": "$附件字体左",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    1539,
+                    28
+                ],
+                "mt_rotate": 4,
+                "ht_pos": [
+                    30,
+                    9
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "center",
+                "line_distance": 1.5,
+                "line_num_est": 1,
+                "label_color": "Brown"
+            },
+            "背景1": {
+                "type": "Background",
+                "filepath": "@/media/背景1.jpg",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            },
+            "背景2": {
+                "type": "Background",
+                "filepath": "@/media/背景2.jpg",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            },
+            "背景3": {
+                "type": "Background",
+                "filepath": "@/media/背景3.jpg",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            }
+        },
+        "dynamic": {}
+    },
+    "charactor": {
+        "custom": [
+            "显示名"
+        ],
+        "header": "显示名",
+        "static": {
+            "蓝色预设": {
+                "Name": "蓝色预设",
+                "Subtype": "default",
+                "Animation": "暗杀者",
+                "Bubble": "蓝黄色气泡",
+                "显示名": "蓝色预设"
+            },
+            "绿色预设": {
+                "Name": "绿色预设",
+                "Subtype": "default",
+                "Animation": "暗杀者",
+                "Bubble": "绿红色气泡",
+                "显示名": "绿色预设"
+            },
+            "黑色预设": {
+                "Name": "黑色预设",
+                "Subtype": "default",
+                "Animation": "暗杀者",
+                "Bubble": "黑红色气泡",
+                "显示名": "黑色预设"
+            }
+        },
+        "dynamic": {
+            "0": {
+                "Animation": "暗杀者",
+                "Bubble": "蓝黄色气泡"
+            }
+        }
+    },
+    "preset": {
+        "0": {
+            "type": "comment",
+            "content": "! D:\\pyenv\\rplgenpy\\python.exe"
+        },
+        "1": {
+            "type": "comment",
+            "content": " preset: 空白的剧本文件。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "set",
+            "target": "method_protocol",
+            "value_type": "protocol",
+            "value": "charactor"
+        },
+        "4": {
+            "type": "blank"
+        },
+        "5": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "w2w",
+                "method_dur": 2
+            }
+        },
+        "6": {
+            "type": "blank"
+        },
+        "7": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": {
+                "bubble": "蓝黄色附件",
+                "header_text": "BGM:《Y.M.C.A》",
+                "main_text": "◇都市·外部",
+                "tx_method": {
+                    "method": "all",
+                    "method_dur": 0
+                }
+            }
+        },
+        "8": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "背景2"
+        },
+        "9": {
+            "type": "blank"
+        },
+        "10": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "0",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "阿迪斯连接流畅anscl",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        }
+    },
+    "example": null
+}
