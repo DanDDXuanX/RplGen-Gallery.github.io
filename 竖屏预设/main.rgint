@@ -1,7 +1,7 @@
 {
     "meta":{
-        "name":"竖屏模板",
-        "cover":"./assets/default_cover/rplgenlight.jpg",
+        "name":"基础竖屏模板",
+        "cover":"@/cover.jpg",
         "describe":"回声工坊2的基础竖屏模板",
         "author":"Betelgeuse Industry",
         "licence":"可以用于任何用途"

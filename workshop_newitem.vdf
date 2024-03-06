@@ -1,0 +1,11 @@
+"workshopitem"
+{
+ "appid" "2550090"
+ "publishedfileid" "0"
+ "contentfolder" "{path}"
+ "previewfile" "{cover}"
+ "visibility" "1"
+ "title" "{title}"
+ "description" "{description}"
+ "changenote" "{version}"
+}

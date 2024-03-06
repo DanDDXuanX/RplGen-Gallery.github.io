@@ -1,3 +1,5 @@
 *.psd
 *.mp3
 *.mp4
+steamcmd/
+loginfo.json
