@@ -1,0 +1,570 @@
+{
+    "meta": {
+        "name": "旧纸",
+        "cover": "@/cover.jpg",
+        "describe": "也许适用西幻；字体为思源宋体及黑体；单句34*4=136字；附常驻气泡。",
+        "author": "问君何以对",
+        "licence": "不可以用于商业用途，无需注明作者"
+    },
+    "config": {
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "media": {
+        "static": {
+            "头文本": {
+                "type": "StrokeText",
+                "fontfile": "@/media/SourceHanSansCN-Heavy#1.otf",
+                "fontsize": 60,
+                "color": [
+                    245,
+                    211,
+                    160,
+                    255
+                ],
+                "line_limit": 26,
+                "edge_color": [
+                    90,
+                    49,
+                    10,
+                    255
+                ],
+                "edge_width": 5,
+                "projection": "C",
+                "label_color": "Lavender"
+            },
+            "常驻气泡主文本": {
+                "type": "RichText",
+                "fontfile": "@/media/SourceHanSerifCN-Bold.otf",
+                "fontsize": 40,
+                "color": [
+                    90,
+                    49,
+                    10,
+                    255
+                ],
+                "line_limit": 10,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "主文本": {
+                "type": "RichText",
+                "fontfile": "@/media/SourceHanSerifCN-Bold.otf",
+                "fontsize": 40,
+                "color": [
+                    90,
+                    49,
+                    10,
+                    255
+                ],
+                "line_limit": 34,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "立绘": {
+                "type": "Animation",
+                "filepath": "@/media/默认立绘.png",
+                "scale": 1.0,
+                "pos": [
+                    720,
+                    280
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Lavender"
+            },
+            "常驻气泡": {
+                "type": "Bubble",
+                "filepath": "@/media/常驻气泡.png",
+                "scale": 1.0,
+                "Main_Text": "$常驻气泡主文本",
+                "Header_Text": null,
+                "pos": [
+                    20,
+                    20
+                ],
+                "mt_pos": [
+                    84.66,
+                    46.04
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "center",
+                "vertical_align": "center",
+                "head_align": "left",
+                "line_distance": 1.5,
+                "line_num_est": 4,
+                "label_color": "Lavender"
+            },
+            "气泡": {
+                "type": "Bubble",
+                "filepath": "@/media/气泡.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本",
+                "Header_Text": "$头文本",
+                "pos": [
+                    179,
+                    730
+                ],
+                "mt_pos": [
+                    93,
+                    85
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_rotate": 0,
+                "ht_target": "显示名",
+                "align": "center",
+                "vertical_align": "center",
+                "head_align": "center",
+                "line_distance": 1.3,
+                "line_num_est": 4,
+                "label_color": "Lavender"
+            },
+            "默认背景": {
+                "type": "Background",
+                "filepath": "@/media/背景.jpg",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            }
+        },
+        "dynamic": {}
+    },
+    "charactor": {
+        "custom": [
+            "显示名"
+        ],
+        "header": "显示名",
+        "static": {
+            "测试角色": {
+                "Name": "测试角色",
+                "Subtype": "default",
+                "Animation": "立绘",
+                "Bubble": "气泡",
+                "显示名": "测试角色"
+            }
+        },
+        "dynamic": {
+            "0": {
+                "Animation": "立绘",
+                "Bubble": "气泡"
+            }
+        }
+    },
+    "preset": {
+        "0": {
+            "type": "comment",
+            "content": "! 回声工坊"
+        },
+        "1": {
+            "type": "comment",
+            "content": " 预设模板：旧纸张。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "comment",
+            "content": " 设置字体播放效果为逐字播放"
+        },
+        "4": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "w2w",
+                "method_dur": 2
+            }
+        },
+        "5": {
+            "type": "comment",
+            "content": " 切换背景"
+        },
+        "6": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "默认背景"
+        },
+        "7": {
+            "type": "comment",
+            "content": " 使用常驻气泡。两个双引号内分别显示头文本和主文本。由于常驻气泡未设置头文本，请仅在第二个双引号内填写信息。"
+        },
+        "8": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "black_leap_down_minor",
+                "method_dur": 10
+            },
+            "object": {
+                "bubble": "常驻气泡",
+                "header_text": "",
+                "main_text": "2024年2月24日[#]星期六[#]回声工坊",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        }
+    },
+    "example": {
+        "0": {
+            "type": "comment",
+            "content": "! example"
+        },
+        "1": {
+            "type": "blank"
+        },
+        "2": {
+            "type": "comment",
+            "content": " 设置字体播放效果为逐字播放"
+        },
+        "3": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "w2w",
+                "method_dur": 2
+            }
+        },
+        "4": {
+            "type": "blank"
+        },
+        "5": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "默认背景"
+        },
+        "6": {
+            "type": "blank"
+        },
+        "7": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "测试角色",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "black_static_up_major_in",
+                "method_dur": 30
+            },
+            "content": "欢迎使用模板M005-旧纸，本模板单句最大字数为34字*4行=136字，角色名称最大字数为26字，请注意调整分句换行，不要让单句字数超出范围。测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {
+                "*": {
+                    "sound": "NA",
+                    "time": 9.0
+                }
+            }
+        },
+        "8": {
+            "type": "blank"
+        },
+        "9": {
+            "type": "comment",
+            "content": " 句末{NA;*2.0}指{不引用语音;*本句持续秒数}，手动设置本句播放时间"
+        },
+        "10": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "测试角色",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "如需手动换行，请使用该符号[#]手动换行成功",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {
+                "*": {
+                    "sound": "NA",
+                    "time": 2.0
+                }
+            }
+        },
+        "11": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "测试角色",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "本模板句子会自动居中，请看以下示例。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {
+                "*": {
+                    "sound": "NA",
+                    "time": 2.0
+                }
+            }
+        },
+        "12": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "测试角色",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "徒劳地相互爱慕，随即恨之入骨[#]徒劳地借美德之名，用分享掩饰嫉妒[#]而那少数的不幸者还想燃尽自己[#]以宝石硌瞎双眼，为着升往高处而纵身一跃——",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {
+                "*": {
+                    "sound": "NA",
+                    "time": 5.0
+                }
+            }
+        },
+        "13": {
+            "type": "blank"
+        },
+        "14": {
+            "type": "comment",
+            "content": " 使常驻气泡中文字全部显示，不使用逐字效果"
+        },
+        "15": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "all",
+                "method_dur": 0
+            }
+        },
+        "16": {
+            "type": "blank"
+        },
+        "17": {
+            "type": "comment",
+            "content": " 使用常驻气泡。两个双引号内分别显示头文本和主文本。由于常驻气泡未设置头文本，请仅在第二个双引号内填写信息。"
+        },
+        "18": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "black_leap_down_minor",
+                "method_dur": 10
+            },
+            "object": {
+                "bubble": "常驻气泡",
+                "header_text": "",
+                "main_text": "2024年2月24日[#]星期六[#]回声工坊",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "19": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "w2w",
+                "method_dur": 2
+            }
+        },
+        "20": {
+            "type": "blank"
+        },
+        "21": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "测试角色",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "本模板附有常驻气泡，单句最大字数为10字*4行=40字，居中显示。可以用于显示时间、位置等辅助信息。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {
+                "*": {
+                    "sound": "NA",
+                    "time": 3.5
+                }
+            }
+        },
+        "22": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "测试角色",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "本示例无语音。如需合成语音，请在角色表为角色设置语音，并在剧本需合成语音句处按tab增加“语音合成”标记，或使用界面右下方“添加语音合成标记”按钮。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {
+                "*": {
+                    "sound": "NA",
+                    "time": 5.0
+                }
+            }
+        },
+        "23": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "测试角色",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "本模板气泡为富文本气泡，可以使用富文本效果。比如 [b]加粗[/b] [i]斜体[/i] [u]下划线[/u] [x]删除线[/x] [fg:#8B0000]改变字体颜色[/fg] [bg:#FFFF00]设置底色[/bg] [fs:70]调整字体大小[/fs]",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {
+                "*": {
+                    "sound": "NA",
+                    "time": 5.0
+                }
+            }
+        },
+        "24": {
+            "type": "blank"
+        },
+        "25": {
+            "type": "comment",
+            "content": " 撤销常驻气泡"
+        },
+        "26": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": null
+        },
+        "27": {
+            "type": "blank"
+        },
+        "28": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "测试角色",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "——以下是系统掷骰效果之示例——",
+            "tx_method": {
+                "method": "all",
+                "method_dur": 0
+            },
+            "sound_set": {
+                "*": {
+                    "sound": "NA",
+                    "time": 1.0
+                }
+            }
+        },
+        "29": {
+            "type": "dice",
+            "dice_set": {
+                "0": {
+                    "content": "测试角色 【斗殴】",
+                    "dicemax": 100,
+                    "face": 75,
+                    "check": 50
+                }
+            }
+        }
+    }
+}

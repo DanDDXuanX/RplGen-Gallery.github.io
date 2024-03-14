@@ -1,0 +1,1548 @@
+{
+    "meta": {
+        "name": "写字板",
+        "cover": "@/cover.jpg",
+        "describe": "基于聊天窗的写字板风格；附有2款常驻气泡；预设15款图案作为头像。",
+        "author": "问君何以对",
+        "licence": "不可以用于商业用途，无需注明作者"
+    },
+    "config": {
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Bb",
+            "BbS",
+            "AmS",
+            "Am3",
+            "Am2",
+            "Am1"
+        ]
+    },
+    "media": {
+        "static": {
+            "主文本黑": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongMedium.otf",
+                "fontsize": 35,
+                "color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "line_limit": 16,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "头文本橙": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongBold.otf",
+                "fontsize": 40,
+                "color": [
+                    239,
+                    147,
+                    54,
+                    255
+                ],
+                "line_limit": 14,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "主文本橙": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongMedium.otf",
+                "fontsize": 35,
+                "color": [
+                    239,
+                    147,
+                    54,
+                    255
+                ],
+                "line_limit": 16,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "常驻气泡1字体": {
+                "type": "RichText",
+                "fontfile": "@/media/LXGWZhenKai.ttf",
+                "fontsize": 40,
+                "color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "line_limit": 12,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "常驻气泡2字体": {
+                "type": "RichText",
+                "fontfile": "@/media/LXGWZhenKai.ttf",
+                "fontsize": 40,
+                "color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "line_limit": 9,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "主文本红": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongMedium.otf",
+                "fontsize": 35,
+                "color": [
+                    199,
+                    113,
+                    113,
+                    255
+                ],
+                "line_limit": 16,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "头文本红": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongBold.otf",
+                "fontsize": 40,
+                "color": [
+                    199,
+                    113,
+                    113,
+                    255
+                ],
+                "line_limit": 14,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "头文本黑": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongBold.otf",
+                "fontsize": 40,
+                "color": [
+                    0,
+                    0,
+                    0,
+                    255
+                ],
+                "line_limit": 14,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "主文本蓝": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongMedium.otf",
+                "fontsize": 35,
+                "color": [
+                    100,
+                    142,
+                    233,
+                    255
+                ],
+                "line_limit": 16,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "头文本蓝": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongBold.otf",
+                "fontsize": 40,
+                "color": [
+                    100,
+                    142,
+                    233,
+                    255
+                ],
+                "line_limit": 14,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "头文本绿": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongBold.otf",
+                "fontsize": 40,
+                "color": [
+                    83,
+                    156,
+                    113,
+                    255
+                ],
+                "line_limit": 14,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "主文本绿": {
+                "type": "RichText",
+                "fontfile": "@/media/ChillDuanHeiSongMedium.otf",
+                "fontsize": 35,
+                "color": [
+                    83,
+                    156,
+                    113,
+                    255
+                ],
+                "line_limit": 16,
+                "scale": 1.0,
+                "sub_key": [
+                    "Key1"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "头像黑": {
+                "type": "Animation",
+                "filepath": "@/media/profile_black.png",
+                "scale": 1.0,
+                "pos": [
+                    645,
+                    471
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Forest"
+            },
+            "头像黑_示例": {
+                "type": "Animation",
+                "filepath": "@/media/profile_black_sample.png",
+                "scale": 1.0,
+                "pos": [
+                    645,
+                    471
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Forest"
+            },
+            "头像白": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_酒": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_alcohol.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_锚": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_anchor.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_黑帽": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_blackhat.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_相机": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_camera.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_猎鹿帽": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_DeerstalkerCap_.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_骰子": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_dice.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_煤气灯": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_Gaslight.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_放大镜": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_magnifier.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_假面": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_masquerade.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_药箱": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_medkit.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_电话": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_phone.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_留声机": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_Phonograph.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_手枪": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_pistol.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_茶杯": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_Teacup.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "头像白_打字机": {
+                "type": "Animation",
+                "filepath": "@/media/profile_white_Typewriter.png",
+                "scale": 1.0,
+                "pos": [
+                    625,
+                    48
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Iris"
+            },
+            "立绘左": {
+                "type": "Animation",
+                "filepath": "@/media/AM_left.png",
+                "scale": 1.0,
+                "pos": [
+                    129,
+                    223
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Lavender"
+            },
+            "立绘右": {
+                "type": "Animation",
+                "filepath": "@/media/AM_right.png",
+                "scale": 1.0,
+                "pos": [
+                    607,
+                    268
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Lavender"
+            },
+            "写字板": {
+                "type": "ChatWindow",
+                "filepath": "@/media/clipboard.png",
+                "scale": 1.0,
+                "sub_key": [
+                    "黑",
+                    "红",
+                    "橙",
+                    "蓝",
+                    "绿"
+                ],
+                "sub_Bubble": [
+                    "$写字板黑",
+                    "$写字板红",
+                    "$写字板橙",
+                    "$写字板蓝",
+                    "$写字板绿"
+                ],
+                "sub_Anime": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "sub_align": [
+                    "left",
+                    "left",
+                    "left",
+                    "left",
+                    "left"
+                ],
+                "pos": [
+                    1080,
+                    20
+                ],
+                "sub_pos": [
+                    70,
+                    155
+                ],
+                "sub_end": [
+                    670,
+                    965
+                ],
+                "am_left": 0,
+                "am_right": 740,
+                "sub_distance": 15,
+                "label_color": "Lavender"
+            },
+            "写字板黑": {
+                "type": "DynamicBubble",
+                "filepath": "@/media/bubble_transparent.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本黑",
+                "Header_Text": "$头文本黑",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    0,
+                    55
+                ],
+                "mt_end": [
+                    600,
+                    100
+                ],
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_target": "显示名",
+                "fill_mode": "stretch",
+                "fit_axis": "vertical",
+                "line_distance": 1.1,
+                "label_color": "Violet"
+            },
+            "常驻气泡1": {
+                "type": "Bubble",
+                "filepath": "@/media/header1.png",
+                "scale": 1.0,
+                "Main_Text": "$常驻气泡1字体",
+                "Header_Text": null,
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    15,
+                    15
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "left",
+                "line_distance": 1.2,
+                "line_num_est": 4,
+                "label_color": "Forest"
+            },
+            "常驻气泡2": {
+                "type": "Bubble",
+                "filepath": "@/media/header2.png",
+                "scale": 1.0,
+                "Main_Text": "$常驻气泡2字体",
+                "Header_Text": null,
+                "pos": [
+                    20,
+                    20
+                ],
+                "mt_pos": [
+                    40,
+                    40
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "center",
+                "vertical_align": "center",
+                "head_align": "left",
+                "line_distance": 1.3,
+                "line_num_est": 3,
+                "label_color": "Forest"
+            },
+            "写字板红": {
+                "type": "DynamicBubble",
+                "filepath": "@/media/bubble_transparent.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本红",
+                "Header_Text": "$头文本红",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    0,
+                    55
+                ],
+                "mt_end": [
+                    600,
+                    100
+                ],
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_target": "显示名",
+                "fill_mode": "stretch",
+                "fit_axis": "vertical",
+                "line_distance": 1.1,
+                "label_color": "Violet"
+            },
+            "写字板橙": {
+                "type": "DynamicBubble",
+                "filepath": "@/media/bubble_transparent.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本橙",
+                "Header_Text": "$头文本橙",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    0,
+                    55
+                ],
+                "mt_end": [
+                    600,
+                    100
+                ],
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_target": "显示名",
+                "fill_mode": "stretch",
+                "fit_axis": "vertical",
+                "line_distance": 1.1,
+                "label_color": "Violet"
+            },
+            "写字板蓝": {
+                "type": "DynamicBubble",
+                "filepath": "@/media/bubble_transparent.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本蓝",
+                "Header_Text": "$头文本蓝",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    0,
+                    55
+                ],
+                "mt_end": [
+                    600,
+                    100
+                ],
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_target": "显示名",
+                "fill_mode": "stretch",
+                "fit_axis": "vertical",
+                "line_distance": 1.1,
+                "label_color": "Violet"
+            },
+            "写字板绿": {
+                "type": "DynamicBubble",
+                "filepath": "@/media/bubble_transparent.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本绿",
+                "Header_Text": "$头文本绿",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    0,
+                    55
+                ],
+                "mt_end": [
+                    600,
+                    100
+                ],
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_target": "显示名",
+                "fill_mode": "stretch",
+                "fit_axis": "vertical",
+                "line_distance": 1.1,
+                "label_color": "Violet"
+            },
+            "休息室": {
+                "type": "Background",
+                "filepath": "@/media/bg_StaffRoom.png",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            }
+        },
+        "dynamic": {}
+    },
+    "charactor": {
+        "custom": [
+            "显示名"
+        ],
+        "header": "显示名",
+        "static": {
+            "主持人": {
+                "Name": "主持人",
+                "Subtype": "default",
+                "Animation": "头像白_打字机",
+                "Bubble": "写字板:黑",
+                "显示名": "主持人"
+            },
+            "骰子": {
+                "Name": "骰子",
+                "Subtype": "default",
+                "Animation": "头像白_骰子",
+                "Bubble": "写字板:红",
+                "显示名": "骰子"
+            },
+            "指引": {
+                "Name": "指引",
+                "Subtype": "医生",
+                "Animation": "头像白_药箱",
+                "Bubble": "写字板:绿",
+                "显示名": "医生"
+            }
+        },
+        "dynamic": {
+            "0": {
+                "Animation": "头像黑_示例",
+                "Bubble": "写字板:橙"
+            },
+            "1": {
+                "Animation": "头像黑_示例",
+                "Bubble": "写字板:绿"
+            },
+            "2": {
+                "Animation": "头像黑_示例",
+                "Bubble": "写字板:蓝"
+            }
+        }
+    },
+    "preset": {
+        "0": {
+            "type": "comment",
+            "content": "! 回声工坊"
+        },
+        "1": {
+            "type": "comment",
+            "content": " 预设模板：写字板。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "set",
+            "target": "am_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross_static_up_minor_both",
+                "method_dur": 30
+            }
+        },
+        "4": {
+            "type": "comment",
+            "content": "设置立绘出场动画为向上短距离通过淡入淡出"
+        },
+        "5": {
+            "type": "set",
+            "target": "bb_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "replace",
+                "method_dur": 0
+            }
+        },
+        "6": {
+            "type": "comment",
+            "content": "设置气泡出场动画为直接替代"
+        },
+        "7": {
+            "type": "set",
+            "target": "bg_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 60
+            }
+        },
+        "8": {
+            "type": "comment",
+            "content": "设置背景出场动画为交叉溶解"
+        },
+        "9": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "run",
+                "method_dur": 30
+            }
+        },
+        "10": {
+            "type": "comment",
+            "content": "设置文字动画为滚动"
+        },
+        "11": {
+            "type": "set",
+            "target": "speech_speed",
+            "value_type": "digit",
+            "value": 900
+        },
+        "12": {
+            "type": "comment",
+            "content": "设置无语音句子阅读时间为每分钟900字"
+        },
+        "13": {
+            "type": "set",
+            "target": "asterisk_pause",
+            "value_type": "digit",
+            "value": 30
+        },
+        "14": {
+            "type": "comment",
+            "content": "设置句子间隔时间"
+        },
+        "15": {
+            "type": "set",
+            "target": "formula",
+            "value_type": "function",
+            "value": "sincurve"
+        },
+        "16": {
+            "type": "comment",
+            "content": "取消相同角色之间的切换效果"
+        },
+        "17": {
+            "type": "set",
+            "target": "method_protocol",
+            "value_type": "protocol",
+            "value": "identical"
+        },
+        "18": {
+            "type": "comment",
+            "content": "设置动画曲线"
+        },
+        "19": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "休息室"
+        },
+        "20": {
+            "type": "comment",
+            "content": "切换背景为“休息室”"
+        },
+        "21": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": {
+                "bubble": "常驻气泡1",
+                "header_text": "",
+                "main_text": "可以写时间、地点、[#]秘密团视角、[#]背景音乐等",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        }
+    },
+    "example": {
+        "0": {
+            "type": "comment",
+            "content": "! 回声工坊"
+        },
+        "1": {
+            "type": "comment",
+            "content": " 写字板-示例项目。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "set",
+            "target": "am_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross_static_up_minor_both",
+                "method_dur": 30
+            }
+        },
+        "3": {
+            "type": "comment",
+            "content": "设置立绘出场动画为向上短距离通过淡入淡出"
+        },
+        "4": {
+            "type": "set",
+            "target": "method_protocol",
+            "value_type": "protocol",
+            "value": "charactor"
+        },
+        "5": {
+            "type": "comment",
+            "content": "设置同一角色连续发言时停用切换的动画效果"
+        },
+        "6": {
+            "type": "set",
+            "target": "bb_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "replace",
+                "method_dur": 0
+            }
+        },
+        "7": {
+            "type": "comment",
+            "content": "设置气泡出场动画为直接替代"
+        },
+        "8": {
+            "type": "set",
+            "target": "bg_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 60
+            }
+        },
+        "9": {
+            "type": "comment",
+            "content": "设置背景出场动画为交叉溶解"
+        },
+        "10": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "run",
+                "method_dur": 30
+            }
+        },
+        "11": {
+            "type": "comment",
+            "content": "设置文字动画为滚动"
+        },
+        "12": {
+            "type": "set",
+            "target": "speech_speed",
+            "value_type": "digit",
+            "value": 900
+        },
+        "13": {
+            "type": "comment",
+            "content": "设置无语音句子阅读时间为每分钟900字"
+        },
+        "14": {
+            "type": "set",
+            "target": "asterisk_pause",
+            "value_type": "digit",
+            "value": 30
+        },
+        "15": {
+            "type": "comment",
+            "content": "设置句子间隔时间"
+        },
+        "16": {
+            "type": "set",
+            "target": "formula",
+            "value_type": "function",
+            "value": "sincurve"
+        },
+        "17": {
+            "type": "comment",
+            "content": "取消相同角色之间的切换效果"
+        },
+        "18": {
+            "type": "set",
+            "target": "method_protocol",
+            "value_type": "protocol",
+            "value": "identical"
+        },
+        "19": {
+            "type": "comment",
+            "content": "设置动画曲线"
+        },
+        "20": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "休息室"
+        },
+        "21": {
+            "type": "comment",
+            "content": "切换背景为“休息室”"
+        },
+        "22": {
+            "type": "blank"
+        },
+        "23": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "欢迎使用模板M007-写字板。本模板使用自适应气泡，发言单句没有字数限制。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "24": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "本模板提供头像/立绘的多种展示方案，使用者可依照自身美术资源选择合适的方案，丰俭由人。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "25": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "若使用者缺乏美术资源，本模板内置15种图案作为头像。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "26": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "主持人",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "主持人发言演示",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "27": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "骰子",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "骰子发言演示，【角色】进行【技能】检定：1d100=80/60，失败！",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "28": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "头像白",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "使用者也可使用空白底图自定义所需图案。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "29": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "头像黑",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "若使用者已经在捏人网站（如捏咔，picrew等）制作头像，或美术素材为头像而非立绘，",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "30": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "头像黑_空白",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "可以配合底图自定义角色头像。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "31": {
+            "type": "blank"
+        },
+        "32": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "既有头像又有全身/半身立绘的使用者，可以将（多个）全身/半身立绘作为常驻立绘放置在左侧以显示在场角色，将角色【立绘】设置为头像显示发言角色。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "33": {
+            "type": "comment",
+            "content": "使用常驻立绘"
+        },
+        "34": {
+            "type": "animation",
+            "am_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": {
+                "0": "立绘左",
+                "1": "立绘右"
+            }
+        },
+        "35": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "警察",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "此时左侧立绘显示在场所有角色，头像显示正在发言的角色；",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "36": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "医生",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "需要注意常驻立绘与发言角色没有关联",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "37": {
+            "type": "animation",
+            "am_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": null
+        },
+        "38": {
+            "type": "comment",
+            "content": "使常驻立绘消失"
+        },
+        "39": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "本模板还设置了两种常驻气泡，接下来演示常驻气泡的使用：",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "40": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "cross",
+                "method_dur": 30
+            },
+            "object": {
+                "bubble": "常驻气泡1",
+                "header_text": "",
+                "main_text": "可以写时间、地点、[#]秘密团视角、[#]背景音乐等",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "41": {
+            "type": "comment",
+            "content": "使用常驻气泡1，两个双引号分别填写头文本和主文本显示内容；本模板常驻气泡未设置头文本，请只在第二个双引号填写内容。由于为富文本字体，使用[#]换行。"
+        },
+        "42": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "replace",
+                "method_dur": 0
+            },
+            "content": "常驻气泡1呈三角形，请注意换行，避免让文本超出气泡底图；",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "43": {
+            "type": "comment",
+            "content": "取消默认动画效果，直接切换头像。因为常驻气泡的使用会使初始设置的“同一角色连续发言时停用切换动画效果”"
+        },
+        "44": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "cross",
+                "method_dur": 30
+            },
+            "object": {
+                "bubble": "常驻气泡2",
+                "header_text": "",
+                "main_text": "测试文本测试文本测试文本测试文本",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "45": {
+            "type": "comment",
+            "content": "使常驻气泡2取代常驻气泡1"
+        },
+        "46": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "replace",
+                "method_dur": 0
+            },
+            "content": "如果觉得手动换行麻烦，可以使用常驻气泡2，单句最大文字为27=单行字数9*3行。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "47": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "replace",
+                "method_dur": 0
+            },
+            "content": "需要注意的是，两个常驻气泡不得同时使用。只能使用一个常驻气泡。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "48": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": null
+        },
+        "49": {
+            "type": "comment",
+            "content": "使常驻气泡消失"
+        },
+        "50": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "replace",
+                "method_dur": 0
+            },
+            "content": "本文本字体皆为富文本，可以使用富文本效果。比如 [b]加粗[/b] [i]斜体[/i] [u]下划线[/u] [x]删除线[/x] [fg:#8B0000]改变字体颜色[/fg] [bg:#FFFF00]设置底色[/bg]",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "51": {
+            "type": "comment",
+            "content": "虽然看来富文本和自适应气泡的兼容很容易出bug……"
+        },
+        "52": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "除此之外富文本还可插入图标（比如表情包），操作参见【视频教程vol.3：富文本与图标】(BV1r64y1E7oT）",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "53": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "本示例无语音。如需合成语音，请在角色表为角色设置语音，并在剧本需合成语音句处按tab增加“语音合成”标记，或使用界面右下方“添加语音合成标记”按钮。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "54": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "指引",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "除了预设的骰子角色，还可使用软件内置掷骰动画。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "55": {
+            "type": "dice",
+            "dice_set": {
+                "0": {
+                    "content": "角色1【斗殴】",
+                    "dicemax": 100,
+                    "face": 75,
+                    "check": 50
+                }
+            }
+        }
+    }
+}
