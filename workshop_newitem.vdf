@@ -4,7 +4,7 @@
  "publishedfileid" "0"
  "contentfolder" "{path}"
  "previewfile" "{cover}"
- "visibility" "1"
+ "visibility" "0"
  "title" "{title}"
  "description" "{description}"
  "changenote" "{version}"

@@ -1,8 +1,8 @@
 {
     "meta":{
         "name":"奇幻风格",
-        "cover":"./assets/default_cover/rplgenlight.jpg",
-        "describe":"提供三种颜色选择，适用于安科、跑团、同人小剧场等，附一张怪物立绘。",
+        "cover":"@/cover.jpg",
+        "describe":"适用于奇幻风格TRPG规则，顶上有时间地点，内置两个颜色版本。",
         "author":"GULILI",
         "licence":"可以用于任何用途，无需注明作者"
     },

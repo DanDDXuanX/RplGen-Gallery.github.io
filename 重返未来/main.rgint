@@ -2,9 +2,9 @@
     "meta":{
         "name":"重返未来",
         "cover":"@/cover.jpg",
-        "describe":"重返未来1999，同人UI模板",
+        "describe":"适用于1999的同人小剧场和相关TPRG，字较少，请注意精简对话。",
         "author":"GULILI",
-        "licence":"可以用于任何用途"
+        "licence":"可以用于任何用途，无需注明作者"
     },
     "config": {
         "Width": 1920,
