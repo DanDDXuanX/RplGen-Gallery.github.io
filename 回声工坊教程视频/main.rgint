@@ -1,0 +1,701 @@
+{
+    "meta": {
+        "name": "教程视频模板",
+        "cover": "@/cover.jpg",
+        "describe": "回声工坊2.0教程视频的预设模板。",
+        "author": "Betelgeuse Industry",
+        "licence": "不可以用于商业用途，必须注明作者"
+    },
+    "config": {
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "AmS",
+            "Am3",
+            "Am2",
+            "Am1",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "media": {
+        "static": {
+            "字幕字体": {
+                "type": "Text",
+                "fontfile": "./assets/SourceHanSerifSC-Heavy.otf",
+                "fontsize": 44,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 30,
+                "label_color": "Lavender"
+            },
+            "标题字体": {
+                "type": "Text",
+                "fontfile": "./assets/SourceHanSerifSC-Heavy.otf",
+                "fontsize": 60,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 10,
+                "label_color": "Lavender"
+            },
+            "首页字体": {
+                "type": "RichText",
+                "fontfile": "./assets/SourceHanSerifSC-Heavy.otf",
+                "fontsize": 100,
+                "color": [
+                    38,
+                    38,
+                    38,
+                    255
+                ],
+                "line_limit": 10,
+                "scale": 1.5,
+                "sub_key": [
+                    "logo"
+                ],
+                "sub_icon": [
+                    "./assets/icon.png"
+                ],
+                "label_color": "Lavender"
+            },
+            "可爱伊可": {
+                "type": "Animation",
+                "filepath": "@/media/可爱伊可.png",
+                "scale": 1.0,
+                "pos": [
+                    -127,
+                    511
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Lavender"
+            },
+            "得意的开场": {
+                "type": "Animation",
+                "filepath": "@/media/得意的开场.jpg",
+                "scale": 0.73,
+                "pos": [
+                    651,
+                    243
+                ],
+                "tick": 1,
+                "loop": true,
+                "label_color": "Forest"
+            },
+            "一键三连": {
+                "type": "Animation",
+                "filepath": "@/media/一键三连.apng",
+                "scale": 1.5,
+                "pos": [
+                    372,
+                    252
+                ],
+                "tick": 1,
+                "loop": false,
+                "label_color": "Forest"
+            },
+            "标题气泡": {
+                "type": "DynamicBubble",
+                "filepath": "@/media/标题气泡.png",
+                "scale": 1.0,
+                "Main_Text": "$标题字体",
+                "Header_Text": null,
+                "pos": [
+                    17,
+                    60
+                ],
+                "mt_pos": [
+                    54,
+                    2
+                ],
+                "mt_end": [
+                    386,
+                    85
+                ],
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_target": "Name",
+                "fill_mode": "stretch",
+                "fit_axis": "horizontal",
+                "line_distance": 1.5,
+                "label_color": "Lavender"
+            },
+            "字幕气泡": {
+                "type": "DynamicBubble",
+                "filepath": "@/media/字幕气泡.png",
+                "scale": 1.0,
+                "Main_Text": "$字幕字体",
+                "Header_Text": null,
+                "pos": [
+                    349,
+                    948
+                ],
+                "mt_pos": [
+                    124,
+                    28
+                ],
+                "mt_end": [
+                    518,
+                    99
+                ],
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_target": "Name",
+                "fill_mode": "stretch",
+                "fit_axis": "horizontal",
+                "line_distance": 1.5,
+                "label_color": "Lavender"
+            },
+            "封面气泡": {
+                "type": "Bubble",
+                "filepath": null,
+                "scale": 1.0,
+                "Main_Text": "$首页字体",
+                "Header_Text": null,
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    481,
+                    424
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    0,
+                    0
+                ],
+                "ht_rotate": 0,
+                "ht_target": "Name",
+                "align": "center",
+                "vertical_align": "center",
+                "head_align": "left",
+                "line_distance": 1.05,
+                "line_num_est": 3,
+                "label_color": "Lavender"
+            },
+            "底图": {
+                "type": "Background",
+                "filepath": "@/media/底图.png",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            },
+            "logo封面": {
+                "type": "Background",
+                "filepath": "@/media/logo封面.png",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            }
+        },
+        "dynamic": {}
+    },
+    "charactor": {
+        "custom": [
+            "显示名"
+        ],
+        "header": "显示名",
+        "static": {
+            "伊可": {
+                "Name": "伊可",
+                "Subtype": "default",
+                "Animation": "可爱伊可",
+                "Bubble": "字幕气泡",
+                "显示名": "init"
+            },
+            "标题": {
+                "Name": "标题",
+                "Subtype": "default",
+                "Animation": "NA",
+                "Bubble": "封面气泡",
+                "显示名": "init"
+            }
+        },
+        "dynamic": {
+            "0": {
+                "Animation": "可爱伊可",
+                "Bubble": "字幕气泡"
+            }
+        }
+    },
+    "preset": {
+        "0": {
+            "type": "comment",
+            "content": "! D:\\pyenv\\rplgenpy\\python.exe"
+        },
+        "1": {
+            "type": "comment",
+            "content": " 回声工坊教程视频模板。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "set",
+            "target": "bb_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "black_leap_right_20",
+                "method_dur": 10
+            }
+        },
+        "4": {
+            "type": "set",
+            "target": "bg_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 30
+            }
+        },
+        "5": {
+            "type": "set",
+            "target": "speech_speed",
+            "value_type": "digit",
+            "value": 600
+        },
+        "6": {
+            "type": "set",
+            "target": "formula",
+            "value_type": "function",
+            "value": "sincurve"
+        },
+        "7": {
+            "type": "set",
+            "target": "asterisk_pause",
+            "value_type": "digit",
+            "value": 10
+        },
+        "8": {
+            "type": "blank"
+        },
+        "9": {
+            "type": "background",
+            "bg_method": {
+                "method": "replace",
+                "method_dur": 0
+            },
+            "object": "底图"
+        },
+        "10": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "标题",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "black_pass_up_30",
+                "method_dur": 20
+            },
+            "content": "[^][bg:#212121][fg:#ffffff][fs:100] 预设模板 [#][/bg][/fg][fs:40]回声工坊2 教程视频[#]Vol. XX",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "11": {
+            "type": "blank"
+        },
+        "12": {
+            "type": "comment",
+            "content": " opening"
+        },
+        "13": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "black_in",
+                "method_dur": 10
+            },
+            "object": {
+                "bubble": "标题气泡",
+                "header_text": "",
+                "main_text": "引言",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "14": {
+            "type": "wait",
+            "time": 20
+        }
+    },
+    "example": {
+        "0": {
+            "type": "comment",
+            "content": "! D:\\pyenv\\rplgenpy\\python.exe"
+        },
+        "1": {
+            "type": "comment",
+            "content": " 模板示例。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "set",
+            "target": "bb_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "black_leap_right_20",
+                "method_dur": 10
+            }
+        },
+        "4": {
+            "type": "set",
+            "target": "bg_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 30
+            }
+        },
+        "5": {
+            "type": "set",
+            "target": "speech_speed",
+            "value_type": "digit",
+            "value": 600
+        },
+        "6": {
+            "type": "set",
+            "target": "formula",
+            "value_type": "function",
+            "value": "sincurve"
+        },
+        "7": {
+            "type": "set",
+            "target": "asterisk_pause",
+            "value_type": "digit",
+            "value": 10
+        },
+        "8": {
+            "type": "blank"
+        },
+        "9": {
+            "type": "background",
+            "bg_method": {
+                "method": "replace",
+                "method_dur": 0
+            },
+            "object": "底图"
+        },
+        "10": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "标题",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "black_pass_up_30",
+                "method_dur": 20
+            },
+            "content": "[^][bg:#212121][fg:#ffffff][fs:100] 预设模板 [#][/bg][/fg][fs:40]回声工坊2 教程视频[#]Vol. XX",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "11": {
+            "type": "blank"
+        },
+        "12": {
+            "type": "comment",
+            "content": " opening"
+        },
+        "13": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "black_in",
+                "method_dur": 10
+            },
+            "object": {
+                "bubble": "标题气泡",
+                "header_text": "",
+                "main_text": "引言",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "14": {
+            "type": "wait",
+            "time": 20
+        },
+        "15": {
+            "type": "blank"
+        },
+        "16": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "伊可",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "black_in",
+                "method_dur": 10
+            },
+            "content": "亲爱的观众朋友们，大家好",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "17": {
+            "type": "animation",
+            "am_method": {
+                "method": "black_pass_up_30",
+                "method_dur": 10
+            },
+            "object": {
+                "0": "得意的开场"
+            }
+        },
+        "18": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "伊可",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "我是伊可，是你们可靠的回声工坊小助理！",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "19": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "伊可",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "在这个视频系列中，我会带领大家熟悉回声工坊中的一些使用技巧。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "20": {
+            "type": "blank"
+        },
+        "21": {
+            "type": "comment",
+            "content": " Ending"
+        },
+        "22": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "black_out",
+                "method_dur": 10
+            },
+            "object": {
+                "bubble": "标题气泡",
+                "header_text": "",
+                "main_text": "结语",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                }
+            }
+        },
+        "23": {
+            "type": "wait",
+            "time": 20
+        },
+        "24": {
+            "type": "blank"
+        },
+        "25": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "伊可",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "好，相信到这，大家已经完全理解了。",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "26": {
+            "type": "animation",
+            "am_method": {
+                "method": "black_pass_up_30",
+                "method_dur": 10
+            },
+            "object": {
+                "0": "一键三连"
+            }
+        },
+        "27": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "伊可",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "希望这个教程能帮到大家",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "28": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "伊可",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "后续我还会为大家更新更多使用小技巧",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "29": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "伊可",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "content": "希望大家多多三连支持我哦！",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "30": {
+            "type": "dialog",
+            "charactor_set": {
+                "0": {
+                    "name": "伊可",
+                    "subtype": "default",
+                    "alpha": null
+                }
+            },
+            "ab_method": {
+                "method": "black_out",
+                "method_dur": 10
+            },
+            "content": "今天的视频就到这里，我们下次再见！",
+            "tx_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "sound_set": {}
+        },
+        "31": {
+            "type": "blank"
+        },
+        "32": {
+            "type": "animation",
+            "am_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": null
+        },
+        "33": {
+            "type": "bubble",
+            "bb_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": null
+        },
+        "34": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "logo封面"
+        },
+        "35": {
+            "type": "wait",
+            "time": 100
+        }
+    }
+}

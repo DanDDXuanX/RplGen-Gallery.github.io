@@ -1,0 +1,699 @@
+{
+    "config": {
+        "Name": "\u56de\u58f02.0\u6559\u7a0b\u89c6\u9891",
+        "Cover": "D:/GitHub/\u56de\u58f0\u5de5\u574a\u66f4\u65b0\u65e5\u5fd7/\u56de\u58f02.0\u6559\u7a0b\u89c6\u9891/logo\u5c01\u9762.png",
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "AmS",
+            "Am3",
+            "Am2",
+            "Am1",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "mediadef": {
+        "\u5e95\u56fe": {
+            "type": "Background",
+            "filepath": "@/media/\u5e95\u56fe.png",
+            "scale": 1.0,
+            "pos": [
+                0,
+                0
+            ],
+            "label_color": "Lavender"
+        },
+        "\u6807\u9898\u6c14\u6ce1": {
+            "type": "DynamicBubble",
+            "filepath": "@/media/\u6807\u9898\u6c14\u6ce1.png",
+            "scale": 1.0,
+            "Main_Text": "$\u6807\u9898\u5b57\u4f53",
+            "Header_Text": null,
+            "pos": [
+                17,
+                60
+            ],
+            "mt_pos": [
+                54,
+                2
+            ],
+            "mt_end": [
+                386,
+                85
+            ],
+            "ht_pos": [
+                0,
+                0
+            ],
+            "ht_target": "Name",
+            "fill_mode": "stretch",
+            "fit_axis": "horizontal",
+            "line_distance": 1.5,
+            "label_color": "Lavender"
+        },
+        "\u5b57\u5e55\u6c14\u6ce1": {
+            "type": "DynamicBubble",
+            "filepath": "@/media/\u5b57\u5e55\u6c14\u6ce1.png",
+            "scale": 1.0,
+            "Main_Text": "$\u5b57\u5e55\u5b57\u4f53",
+            "Header_Text": null,
+            "pos": [
+                349,
+                948
+            ],
+            "mt_pos": [
+                124,
+                28
+            ],
+            "mt_end": [
+                518,
+                99
+            ],
+            "ht_pos": [
+                0,
+                0
+            ],
+            "ht_target": "Name",
+            "fill_mode": "stretch",
+            "fit_axis": "horizontal",
+            "line_distance": 1.5,
+            "label_color": "Lavender"
+        },
+        "\u5b57\u5e55\u5b57\u4f53": {
+            "type": "Text",
+            "fontfile": "./assets/SourceHanSerifSC-Heavy.otf",
+            "fontsize": 44,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 30,
+            "label_color": "Lavender"
+        },
+        "\u6807\u9898\u5b57\u4f53": {
+            "type": "Text",
+            "fontfile": "./assets/SourceHanSerifSC-Heavy.otf",
+            "fontsize": 60,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 10,
+            "label_color": "Lavender"
+        },
+        "\u53ef\u7231\u4f0a\u53ef": {
+            "type": "Animation",
+            "filepath": "@/media/\u53ef\u7231\u4f0a\u53ef.png",
+            "scale": 1.0,
+            "pos": [
+                -127,
+                511
+            ],
+            "tick": 1,
+            "loop": true,
+            "label_color": "Lavender"
+        },
+        "\u9996\u9875\u5b57\u4f53": {
+            "type": "RichText",
+            "fontfile": "./assets/SourceHanSerifSC-Heavy.otf",
+            "fontsize": 100,
+            "color": [
+                38,
+                38,
+                38,
+                255
+            ],
+            "line_limit": 10,
+            "scale": 1.5,
+            "sub_key": [
+                "logo"
+            ],
+            "sub_icon": [
+                "./assets/icon.png"
+            ],
+            "label_color": "Lavender"
+        },
+        "\u5c01\u9762\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": null,
+            "scale": 1.0,
+            "Main_Text": "$\u9996\u9875\u5b57\u4f53",
+            "Header_Text": null,
+            "pos": [
+                0,
+                0
+            ],
+            "mt_pos": [
+                481,
+                424
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                0,
+                0
+            ],
+            "ht_rotate": 0,
+            "ht_target": "Name",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.05,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "logo\u5c01\u9762": {
+            "type": "Background",
+            "filepath": "@/media/logo\u5c01\u9762.png",
+            "scale": 1.0,
+            "pos": [
+                0,
+                0
+            ],
+            "label_color": "Lavender"
+        },
+        "\u5f97\u610f\u7684\u5f00\u573a": {
+            "type": "Animation",
+            "filepath": "@/media/\u5f97\u610f\u7684\u5f00\u573a.jpg",
+            "scale": 0.73,
+            "pos": [
+                651,
+                243
+            ],
+            "tick": 1,
+            "loop": true,
+            "label_color": "Forest"
+        },
+        "\u4e00\u952e\u4e09\u8fde": {
+            "type": "Animation",
+            "filepath": "@/media/\u4e00\u952e\u4e09\u8fde.apng",
+            "scale": 1.5,
+            "pos": [
+                372,
+                252
+            ],
+            "tick": 1,
+            "loop": false,
+            "label_color": "Forest"
+        }
+    },
+    "chartab": {
+        "\u4f0a\u53ef.default": {
+            "Name": "\u4f0a\u53ef",
+            "Subtype": "default",
+            "Animation": "\u53ef\u7231\u4f0a\u53ef",
+            "Bubble": "\u5b57\u5e55\u6c14\u6ce1",
+            "Voice": "Azure::zh-CN-YunxiNeural:assistant:1.5:Boy",
+            "SpeechRate": 50,
+            "PitchRate": -100,
+            "\u663e\u793a\u540d": "init"
+        },
+        "\u6807\u9898.default": {
+            "Name": "\u6807\u9898",
+            "Subtype": "default",
+            "Animation": "NA",
+            "Bubble": "\u5c01\u9762\u6c14\u6ce1",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "init"
+        },
+        "0.default": {
+            "Name": "0",
+            "Subtype": "default",
+            "Animation": "\u53ef\u7231\u4f0a\u53ef",
+            "Bubble": "\u5b57\u5e55\u6c14\u6ce1",
+            "Voice": "Azure::zh-CN-YunxiNeural:assistant:1.5:Boy",
+            "SpeechRate": 50,
+            "PitchRate": -100,
+            "\u663e\u793a\u540d": "init"
+        }
+    },
+    "logfile": {
+        "example": {
+            "0": {
+                "type": "comment",
+                "content": "! D:\\pyenv\\rplgenpy\\python.exe"
+            },
+            "1": {
+                "type": "comment",
+                "content": " \u6a21\u677f\u793a\u4f8b\u3002\u70b9\u6309\u952e\u76d8Tab\u952e\uff0c\u83b7\u53d6\u547d\u4ee4\u667a\u80fd\u8865\u5168\u3002\u9884\u89c8\u548c\u5bfc\u51fa\u6309\u94ae\u5728\u53f3\u4fa7 ->"
+            },
+            "2": {
+                "type": "blank"
+            },
+            "3": {
+                "type": "set",
+                "target": "bb_method_default",
+                "value_type": "method",
+                "value": {
+                    "method": "black_leap_right_20",
+                    "method_dur": 10
+                }
+            },
+            "4": {
+                "type": "set",
+                "target": "bg_method_default",
+                "value_type": "method",
+                "value": {
+                    "method": "cross",
+                    "method_dur": 30
+                }
+            },
+            "5": {
+                "type": "set",
+                "target": "speech_speed",
+                "value_type": "digit",
+                "value": 600
+            },
+            "6": {
+                "type": "set",
+                "target": "formula",
+                "value_type": "function",
+                "value": "sincurve"
+            },
+            "7": {
+                "type": "set",
+                "target": "asterisk_pause",
+                "value_type": "digit",
+                "value": 10
+            },
+            "8": {
+                "type": "blank"
+            },
+            "9": {
+                "type": "background",
+                "bg_method": {
+                    "method": "replace",
+                    "method_dur": 0
+                },
+                "object": "\u5e95\u56fe"
+            },
+            "10": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u6807\u9898",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "black_pass_up_30",
+                    "method_dur": 20
+                },
+                "content": "[^][bg:#212121][fg:#ffffff][fs:100] \u9884\u8bbe\u6a21\u677f [#][/bg][/fg][fs:40]\u56de\u58f0\u5de5\u574a2 \u6559\u7a0b\u89c6\u9891[#]Vol. XX",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "11": {
+                "type": "blank"
+            },
+            "12": {
+                "type": "comment",
+                "content": " opening"
+            },
+            "13": {
+                "type": "bubble",
+                "bb_method": {
+                    "method": "black_in",
+                    "method_dur": 10
+                },
+                "object": {
+                    "bubble": "\u6807\u9898\u6c14\u6ce1",
+                    "header_text": "",
+                    "main_text": "\u5f15\u8a00",
+                    "tx_method": {
+                        "method": "default",
+                        "method_dur": "default"
+                    }
+                }
+            },
+            "14": {
+                "type": "wait",
+                "time": 20
+            },
+            "15": {
+                "type": "blank"
+            },
+            "16": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u4f0a\u53ef",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "black_in",
+                    "method_dur": 10
+                },
+                "content": "\u4eb2\u7231\u7684\u89c2\u4f17\u670b\u53cb\u4eec\uff0c\u5927\u5bb6\u597d",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "17": {
+                "type": "animation",
+                "am_method": {
+                    "method": "black_pass_up_30",
+                    "method_dur": 10
+                },
+                "object": {
+                    "0": "\u5f97\u610f\u7684\u5f00\u573a"
+                }
+            },
+            "18": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u4f0a\u53ef",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "content": "\u6211\u662f\u4f0a\u53ef\uff0c\u662f\u4f60\u4eec\u53ef\u9760\u7684\u56de\u58f0\u5de5\u574a\u5c0f\u52a9\u7406\uff01",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "19": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u4f0a\u53ef",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "content": "\u5728\u8fd9\u4e2a\u89c6\u9891\u7cfb\u5217\u4e2d\uff0c\u6211\u4f1a\u5e26\u9886\u5927\u5bb6\u719f\u6089\u56de\u58f0\u5de5\u574a\u4e2d\u7684\u4e00\u4e9b\u4f7f\u7528\u6280\u5de7\u3002",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "20": {
+                "type": "blank"
+            },
+            "21": {
+                "type": "comment",
+                "content": " Ending"
+            },
+            "22": {
+                "type": "bubble",
+                "bb_method": {
+                    "method": "black_out",
+                    "method_dur": 10
+                },
+                "object": {
+                    "bubble": "\u6807\u9898\u6c14\u6ce1",
+                    "header_text": "",
+                    "main_text": "\u7ed3\u8bed",
+                    "tx_method": {
+                        "method": "default",
+                        "method_dur": "default"
+                    }
+                }
+            },
+            "23": {
+                "type": "wait",
+                "time": 20
+            },
+            "24": {
+                "type": "blank"
+            },
+            "25": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u4f0a\u53ef",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "content": "\u597d\uff0c\u76f8\u4fe1\u5230\u8fd9\uff0c\u5927\u5bb6\u5df2\u7ecf\u5b8c\u5168\u7406\u89e3\u4e86\u3002",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "26": {
+                "type": "animation",
+                "am_method": {
+                    "method": "black_pass_up_30",
+                    "method_dur": 10
+                },
+                "object": {
+                    "0": "\u4e00\u952e\u4e09\u8fde"
+                }
+            },
+            "27": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u4f0a\u53ef",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "content": "\u5e0c\u671b\u8fd9\u4e2a\u6559\u7a0b\u80fd\u5e2e\u5230\u5927\u5bb6",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "28": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u4f0a\u53ef",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "content": "\u540e\u7eed\u6211\u8fd8\u4f1a\u4e3a\u5927\u5bb6\u66f4\u65b0\u66f4\u591a\u4f7f\u7528\u5c0f\u6280\u5de7",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "29": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u4f0a\u53ef",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "content": "\u5e0c\u671b\u5927\u5bb6\u591a\u591a\u4e09\u8fde\u652f\u6301\u6211\u54e6\uff01",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "30": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u4f0a\u53ef",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "black_out",
+                    "method_dur": 10
+                },
+                "content": "\u4eca\u5929\u7684\u89c6\u9891\u5c31\u5230\u8fd9\u91cc\uff0c\u6211\u4eec\u4e0b\u6b21\u518d\u89c1\uff01",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "31": {
+                "type": "blank"
+            },
+            "32": {
+                "type": "animation",
+                "am_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "object": null
+            },
+            "33": {
+                "type": "bubble",
+                "bb_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "object": null
+            },
+            "34": {
+                "type": "background",
+                "bg_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "object": "logo\u5c01\u9762"
+            },
+            "35": {
+                "type": "wait",
+                "time": 100
+            }
+        },
+        "preset": {
+            "0": {
+                "type": "comment",
+                "content": "! D:\\pyenv\\rplgenpy\\python.exe"
+            },
+            "1": {
+                "type": "comment",
+                "content": " \u56de\u58f0\u5de5\u574a\u6559\u7a0b\u89c6\u9891\u6a21\u677f\u3002\u70b9\u6309\u952e\u76d8Tab\u952e\uff0c\u83b7\u53d6\u547d\u4ee4\u667a\u80fd\u8865\u5168\u3002\u9884\u89c8\u548c\u5bfc\u51fa\u6309\u94ae\u5728\u53f3\u4fa7 ->"
+            },
+            "2": {
+                "type": "blank"
+            },
+            "3": {
+                "type": "set",
+                "target": "bb_method_default",
+                "value_type": "method",
+                "value": {
+                    "method": "black_leap_right_20",
+                    "method_dur": 10
+                }
+            },
+            "4": {
+                "type": "set",
+                "target": "bg_method_default",
+                "value_type": "method",
+                "value": {
+                    "method": "cross",
+                    "method_dur": 30
+                }
+            },
+            "5": {
+                "type": "set",
+                "target": "speech_speed",
+                "value_type": "digit",
+                "value": 600
+            },
+            "6": {
+                "type": "set",
+                "target": "formula",
+                "value_type": "function",
+                "value": "sincurve"
+            },
+            "7": {
+                "type": "set",
+                "target": "asterisk_pause",
+                "value_type": "digit",
+                "value": 10
+            },
+            "8": {
+                "type": "blank"
+            },
+            "9": {
+                "type": "background",
+                "bg_method": {
+                    "method": "replace",
+                    "method_dur": 0
+                },
+                "object": "\u5e95\u56fe"
+            },
+            "10": {
+                "type": "dialog",
+                "charactor_set": {
+                    "0": {
+                        "name": "\u6807\u9898",
+                        "subtype": "default",
+                        "alpha": null
+                    }
+                },
+                "ab_method": {
+                    "method": "black_pass_up_30",
+                    "method_dur": 20
+                },
+                "content": "[^][bg:#212121][fg:#ffffff][fs:100] \u9884\u8bbe\u6a21\u677f [#][/bg][/fg][fs:40]\u56de\u58f0\u5de5\u574a2 \u6559\u7a0b\u89c6\u9891[#]Vol. XX",
+                "tx_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "sound_set": {}
+            },
+            "11": {
+                "type": "blank"
+            },
+            "12": {
+                "type": "comment",
+                "content": " opening"
+            },
+            "13": {
+                "type": "bubble",
+                "bb_method": {
+                    "method": "black_in",
+                    "method_dur": 10
+                },
+                "object": {
+                    "bubble": "\u6807\u9898\u6c14\u6ce1",
+                    "header_text": "",
+                    "main_text": "\u5f15\u8a00",
+                    "tx_method": {
+                        "method": "default",
+                        "method_dur": "default"
+                    }
+                }
+            },
+            "14": {
+                "type": "wait",
+                "time": 20
+            }
+        }
+    }
+}
