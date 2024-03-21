@@ -1,0 +1,190 @@
+{
+    "meta": {
+        "name": "明日方舟对话框",
+        "cover": "@/cover.png",
+        "describe": "明日方舟的极简风格，没有多加东西，请以实际情况调整。",
+        "author": "GULILI",
+        "licence": "不可以用于商业用途，无需注明作者"
+    },
+    "config": {
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "media": {
+        "static": {
+            "姓名": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSansCN-Medium#1.otf",
+                "fontsize": 40,
+                "color": [
+                    163,
+                    164,
+                    164,
+                    255
+                ],
+                "line_limit": 8,
+                "label_color": "Forest"
+            },
+            "主文本": {
+                "type": "Text",
+                "fontfile": "@/media/SourceHanSansCN-Medium#1.otf",
+                "fontsize": 36,
+                "color": [
+                    255,
+                    255,
+                    255,
+                    255
+                ],
+                "line_limit": 34,
+                "label_color": "Cerulean"
+            },
+            "气泡框": {
+                "type": "Bubble",
+                "filepath": "@/media/渐变对话框.png",
+                "scale": 1.0,
+                "Main_Text": "$主文本",
+                "Header_Text": "$姓名",
+                "pos": [
+                    0,
+                    0
+                ],
+                "mt_pos": [
+                    530,
+                    951
+                ],
+                "mt_rotate": 0,
+                "ht_pos": [
+                    185,
+                    948
+                ],
+                "ht_rotate": 0,
+                "ht_target": "显示名",
+                "align": "left",
+                "vertical_align": "top",
+                "head_align": "center",
+                "line_distance": 1.2,
+                "line_num_est": 3,
+                "label_color": "Rose"
+            },
+            "示例背景": {
+                "type": "Background",
+                "filepath": "@/media/背景.png",
+                "scale": 1.0,
+                "pos": [
+                    0,
+                    0
+                ],
+                "label_color": "Lavender"
+            }
+        },
+        "dynamic": {}
+    },
+    "charactor": {
+        "custom": [
+            "显示名"
+        ],
+        "header": "显示名",
+        "static": {},
+        "dynamic": {
+            "0": {
+                "Animation": "NA",
+                "Bubble": "气泡框"
+            }
+        }
+    },
+    "preset": {
+        "0": {
+            "type": "comment",
+            "content": "! D:\\pyenv\\rplgenpy\\python.exe"
+        },
+        "1": {
+            "type": "comment",
+            "content": " 明日方舟对话框。点按键盘Tab键，获取命令智能补全。预览和导出按钮在右侧 ->"
+        },
+        "2": {
+            "type": "blank"
+        },
+        "3": {
+            "type": "comment",
+            "content": " 播放速度：600"
+        },
+        "4": {
+            "type": "set",
+            "target": "speech_speed",
+            "value_type": "digit",
+            "value": 600
+        },
+        "5": {
+            "type": "comment",
+            "content": " 立绘切换效果：交叉溶解"
+        },
+        "6": {
+            "type": "set",
+            "target": "am_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 10
+            }
+        },
+        "7": {
+            "type": "comment",
+            "content": " 背景切换效果：交叉溶解"
+        },
+        "8": {
+            "type": "set",
+            "target": "bg_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "cross",
+                "method_dur": 20
+            }
+        },
+        "9": {
+            "type": "comment",
+            "content": " 文字效果：逐字显示"
+        },
+        "10": {
+            "type": "set",
+            "target": "tx_method_default",
+            "value_type": "method",
+            "value": {
+                "method": "w2w",
+                "method_dur": 2
+            }
+        },
+        "11": {
+            "type": "comment",
+            "content": " 动画曲线：正弦"
+        },
+        "12": {
+            "type": "set",
+            "target": "formula",
+            "value_type": "function",
+            "value": "sincurve"
+        },
+        "13": {
+            "type": "blank"
+        },
+        "14": {
+            "type": "background",
+            "bg_method": {
+                "method": "default",
+                "method_dur": "default"
+            },
+            "object": "示例背景"
+        }
+    },
+    "example": null
+}
