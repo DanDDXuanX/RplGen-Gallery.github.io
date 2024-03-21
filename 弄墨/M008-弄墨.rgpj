@@ -1,0 +1,554 @@
+{
+    "config": {
+        "Name": "M008-\u5f04\u58a8",
+        "Cover": "D:/RPLGEN/M008-\u5f04\u58a8/\u5c01\u9762.png",
+        "Width": 1920,
+        "Height": 1080,
+        "frame_rate": 30,
+        "Zorder": [
+            "BG2",
+            "BG1",
+            "Am3",
+            "Am2",
+            "Am1",
+            "AmS",
+            "Bb",
+            "BbS"
+        ]
+    },
+    "mediadef": {
+        "\u5e38\u9a7b\u6c14\u6ce1\u5b57\u4f53": {
+            "type": "StrokeText",
+            "fontfile": "@/media/AlimamaDongFangDaKai-Regular.ttf",
+            "fontsize": 50,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 15,
+            "edge_color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "edge_width": 5,
+            "projection": "C",
+            "label_color": "Lavender"
+        },
+        "\u5377\u8f74\u5934\u6587\u672c\u5b57\u4f53": {
+            "type": "StrokeText",
+            "fontfile": "@/media/AlimamaDongFangDaKai-Regular.ttf",
+            "fontsize": 65,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 6,
+            "edge_color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "edge_width": 5,
+            "projection": "C",
+            "label_color": "Lavender"
+        },
+        "\u5377\u8f74\u4e3b\u6587\u672c\u5b57\u4f53": {
+            "type": "RichText",
+            "fontfile": "@/media/\u4e09\u6781\u884c\u6977\u7b80\u4f53-\u7c97.ttf",
+            "fontsize": 45,
+            "color": [
+                0,
+                0,
+                0,
+                255
+            ],
+            "line_limit": 31,
+            "scale": 1.0,
+            "sub_key": [
+                "Key1"
+            ],
+            "sub_icon": [
+                "./assets/icon.png"
+            ],
+            "label_color": "Lavender"
+        },
+        "\u58a8_\u6709\u5934": {
+            "type": "Bubble",
+            "filepath": "@/media/\u58a8_\u6709\u5934.png",
+            "scale": 1.0,
+            "Main_Text": "$\u58a8\u4e3b\u6587\u672c\u5b57\u4f53",
+            "Header_Text": "$\u58a8\u5934\u6587\u672c\u5b57\u4f53",
+            "pos": [
+                142,
+                746
+            ],
+            "mt_pos": [
+                161,
+                93
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                216,
+                14
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.3,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u58a8\u5934\u6587\u672c\u5b57\u4f53": {
+            "type": "StrokeText",
+            "fontfile": "@/media/AlimamaDongFangDaKai-Regular.ttf",
+            "fontsize": 50,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 4,
+            "edge_color": [
+                144,
+                0,
+                0,
+                255
+            ],
+            "edge_width": 5,
+            "projection": "C",
+            "label_color": "Lavender"
+        },
+        "\u58a8\u4e3b\u6587\u672c\u5b57\u4f53": {
+            "type": "RichText",
+            "fontfile": "@/media/\u4e09\u6781\u884c\u6977\u7b80\u4f53-\u7c97.ttf",
+            "fontsize": 45,
+            "color": [
+                255,
+                255,
+                255,
+                255
+            ],
+            "line_limit": 29,
+            "scale": 1.0,
+            "sub_key": [
+                "Key1"
+            ],
+            "sub_icon": [
+                "./assets/icon.png"
+            ],
+            "label_color": "Lavender"
+        },
+        "\u58a8_\u65e0\u5934": {
+            "type": "Bubble",
+            "filepath": "@/media/\u58a8_\u65e0\u5934.png",
+            "scale": 1.0,
+            "Main_Text": "$\u58a8\u4e3b\u6587\u672c\u5b57\u4f53",
+            "Header_Text": null,
+            "pos": [
+                142,
+                796
+            ],
+            "mt_pos": [
+                161,
+                43
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                0,
+                0
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.3,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u5377\u8f74\u9ec4_\u6709\u5934": {
+            "type": "Bubble",
+            "filepath": "@/media/\u5377\u8f74\u9ec4_\u6709\u5934.png",
+            "scale": 1.0,
+            "Main_Text": "$\u5377\u8f74\u4e3b\u6587\u672c\u5b57\u4f53",
+            "Header_Text": "$\u5377\u8f74\u5934\u6587\u672c\u5b57\u4f53",
+            "pos": [
+                137,
+                645
+            ],
+            "mt_pos": [
+                119,
+                137
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                128,
+                28
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.4,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u5377\u8f74\u9ec4_\u65e0\u5934": {
+            "type": "Bubble",
+            "filepath": "@/media/\u5377\u8f74\u9ec4_\u65e0\u5934.png",
+            "scale": 1.0,
+            "Main_Text": "$\u5377\u8f74\u4e3b\u6587\u672c\u5b57\u4f53",
+            "Header_Text": null,
+            "pos": [
+                137,
+                680
+            ],
+            "mt_pos": [
+                119,
+                101
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                0,
+                0
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.4,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u5377\u8f74\u7eff_\u65e0\u5934": {
+            "type": "Bubble",
+            "filepath": "@/media/\u5377\u8f74\u7eff_\u65e0\u5934.png",
+            "scale": 1.0,
+            "Main_Text": "$\u5377\u8f74\u4e3b\u6587\u672c\u5b57\u4f53",
+            "Header_Text": null,
+            "pos": [
+                137,
+                680
+            ],
+            "mt_pos": [
+                119,
+                101
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                0,
+                0
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.4,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u5377\u8f74\u7eff_\u6709\u5934": {
+            "type": "Bubble",
+            "filepath": "@/media/\u5377\u8f74\u7eff_\u6709\u5934.png",
+            "scale": 1.0,
+            "Main_Text": "$\u5377\u8f74\u4e3b\u6587\u672c\u5b57\u4f53",
+            "Header_Text": "$\u5377\u8f74\u5934\u6587\u672c\u5b57\u4f53",
+            "pos": [
+                137,
+                645
+            ],
+            "mt_pos": [
+                119,
+                137
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                128,
+                28
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.4,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u5377\u8f74\u84dd_\u6709\u5934": {
+            "type": "Bubble",
+            "filepath": "@/media/\u5377\u8f74\u84dd_\u6709\u5934.png",
+            "scale": 1.0,
+            "Main_Text": "$\u5377\u8f74\u4e3b\u6587\u672c\u5b57\u4f53",
+            "Header_Text": "$\u5377\u8f74\u5934\u6587\u672c\u5b57\u4f53",
+            "pos": [
+                137,
+                645
+            ],
+            "mt_pos": [
+                119,
+                137
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                128,
+                28
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.4,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u5377\u8f74\u84dd_\u65e0\u5934": {
+            "type": "Bubble",
+            "filepath": "@/media/\u5377\u8f74\u84dd_\u65e0\u5934.png",
+            "scale": 1.0,
+            "Main_Text": "$\u5377\u8f74\u4e3b\u6587\u672c\u5b57\u4f53",
+            "Header_Text": null,
+            "pos": [
+                137,
+                680
+            ],
+            "mt_pos": [
+                119,
+                101
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                0,
+                0
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "center",
+            "vertical_align": "center",
+            "head_align": "left",
+            "line_distance": 1.4,
+            "line_num_est": 3,
+            "label_color": "Lavender"
+        },
+        "\u793a\u4f8b\u5934\u50cf_\u58a8": {
+            "type": "Animation",
+            "filepath": "@/media/\u5934\u50cf_\u793a\u4f8b.png",
+            "scale": 1.0,
+            "pos": [
+                1210,
+                383
+            ],
+            "tick": 1,
+            "loop": true,
+            "label_color": "Lavender"
+        },
+        "\u793a\u4f8b\u5934\u50cf_\u5377\u8f74": {
+            "type": "Animation",
+            "filepath": "@/media/\u5934\u50cf_\u793a\u4f8b.png",
+            "scale": 1.0,
+            "pos": [
+                1210,
+                287
+            ],
+            "tick": 1,
+            "loop": true,
+            "label_color": "Lavender"
+        },
+        "\u9ed8\u8ba4\u80cc\u666f": {
+            "type": "Background",
+            "filepath": "@/media/\u80cc\u666f.jpg",
+            "scale": 1.0,
+            "pos": [
+                0,
+                0
+            ],
+            "label_color": "Lavender"
+        },
+        "\u5e38\u9a7b\u6c14\u6ce1": {
+            "type": "Bubble",
+            "filepath": "@/media/\u5e38\u9a7b\u6c14\u6ce1.png",
+            "scale": 1.0,
+            "Main_Text": "$\u5e38\u9a7b\u6c14\u6ce1\u5b57\u4f53",
+            "Header_Text": null,
+            "pos": [
+                0,
+                16
+            ],
+            "mt_pos": [
+                193,
+                34
+            ],
+            "mt_rotate": 0,
+            "ht_pos": [
+                0,
+                0
+            ],
+            "ht_rotate": 0,
+            "ht_target": "\u663e\u793a\u540d",
+            "align": "left",
+            "vertical_align": "top",
+            "head_align": "left",
+            "line_distance": 1.5,
+            "line_num_est": 1,
+            "label_color": "Lavender"
+        },
+        "\u63b7\u9ab0": {
+            "type": "Audio",
+            "filepath": "@/media/\u63b7\u9ab0.wav",
+            "label_color": "Caribbean"
+        },
+        "\u6210\u529f": {
+            "type": "Audio",
+            "filepath": "@/media/\u6210\u529f.wav",
+            "label_color": "Caribbean"
+        },
+        "\u5931\u8d25": {
+            "type": "Audio",
+            "filepath": "@/media/\u5931\u8d25.wav",
+            "label_color": "Caribbean"
+        }
+    },
+    "chartab": {
+        "\u4e3b\u6301\u4eba.default": {
+            "Name": "\u4e3b\u6301\u4eba",
+            "Subtype": "default",
+            "Animation": "NA",
+            "Bubble": "\u58a8_\u6709\u5934",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "\u4e3b\u6301\u4eba"
+        },
+        "\u9ab0\u5b50.default": {
+            "Name": "\u9ab0\u5b50",
+            "Subtype": "default",
+            "Animation": "NA",
+            "Bubble": "\u58a8_\u65e0\u5934",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "\u9ab0\u5b50"
+        },
+        "0.default": {
+            "Name": "0",
+            "Subtype": "default",
+            "Animation": "\u793a\u4f8b\u5934\u50cf_\u5377\u8f74",
+            "Bubble": "\u5377\u8f74\u9ec4_\u6709\u5934",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "init"
+        },
+        "1.default": {
+            "Name": "1",
+            "Subtype": "default",
+            "Animation": "\u793a\u4f8b\u5934\u50cf_\u5377\u8f74",
+            "Bubble": "\u5377\u8f74\u7eff_\u6709\u5934",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "init"
+        },
+        "2.default": {
+            "Name": "2",
+            "Subtype": "default",
+            "Animation": "\u793a\u4f8b\u5934\u50cf_\u5377\u8f74",
+            "Bubble": "\u5377\u8f74\u84dd_\u6709\u5934",
+            "Voice": "NA",
+            "SpeechRate": 0,
+            "PitchRate": 0,
+            "\u663e\u793a\u540d": "init"
+        }
+    },
+    "logfile": {
+        "preset": {
+            "0": {
+                "type": "comment",
+                "content": "! D:\\Steam\\Steam\\steamapps\\common\\RplGenStudio\\RplGenStudio.exe"
+            },
+            "1": {
+                "type": "comment",
+                "content": " preset: \u7a7a\u767d\u7684\u5267\u672c\u6587\u4ef6\u3002\u70b9\u6309\u952e\u76d8Tab\u952e\uff0c\u83b7\u53d6\u547d\u4ee4\u667a\u80fd\u8865\u5168\u3002\u9884\u89c8\u548c\u5bfc\u51fa\u6309\u94ae\u5728\u53f3\u4fa7 ->"
+            },
+            "2": {
+                "type": "blank"
+            },
+            "3": {
+                "type": "comment",
+                "content": "\u8bbe\u7f6e\u5b57\u4f53\u64ad\u653e\u6548\u679c\u4e3a\u9010\u5b57\u64ad\u653e"
+            },
+            "4": {
+                "type": "set",
+                "target": "tx_method_default",
+                "value_type": "method",
+                "value": {
+                    "method": "w2w",
+                    "method_dur": 2
+                }
+            },
+            "5": {
+                "type": "comment",
+                "content": "\u8bbe\u7f6e\u65e0\u8bed\u97f3\u53e5\u5b50\u4e3a\u6bcf\u5206\u949f900\u5b57"
+            },
+            "6": {
+                "type": "set",
+                "target": "speech_speed",
+                "value_type": "digit",
+                "value": 600
+            },
+            "7": {
+                "type": "comment",
+                "content": "\u5207\u6362\u80cc\u666f\u5230\u9ed8\u8ba4\u80cc\u666f"
+            },
+            "8": {
+                "type": "background",
+                "bg_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "object": "\u9ed8\u8ba4\u80cc\u666f"
+            },
+            "9": {
+                "type": "comment",
+                "content": "\u6dfb\u52a0\u5e38\u9a7b\u663e\u793a\u7684\u5185\u5bb9"
+            },
+            "10": {
+                "type": "bubble",
+                "bb_method": {
+                    "method": "default",
+                    "method_dur": "default"
+                },
+                "object": {
+                    "bubble": "\u5e38\u9a7b\u6c14\u6ce1",
+                    "header_text": "",
+                    "main_text": "\u5e38\u9a7b\u663e\u793a\u7684\u5185\u5bb9",
+                    "tx_method": {
+                        "method": "default",
+                        "method_dur": "default"
+                    }
+                }
+            },
+            "11": {
+                "type": "blank"
+            },
+            "12": {
+                "type": "comment",
+                "content": "\u8bf7\u6309\u4e0btab\u952e\u4f7f\u7528\u83dc\u5355\u5b8c\u6210\u4f60\u7684\u5267\u672c\u5427\u3002"
+            }
+        }
+    }
+}
