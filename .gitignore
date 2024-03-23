@@ -2,4 +2,5 @@
 *.mp3
 *.mp4
 steamcmd/
+steamworks/
 loginfo.json
