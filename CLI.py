@@ -71,7 +71,7 @@ class RplGenTpltEditorCLI:
         media_order = {
             'Pos'       : ['Pos','FreePos','PosGrid','BezierCurve'],
             'Text'      : ['Text', 'StrokeText', 'RichText', 'HPLabel'],
-            'Animation' : ['Animation'],
+            'Animation' : ['Animation','Sprite'],
             'Bubble'    : ['Bubble','Balloon','DynamicBubble','ChatWindow'],
             'Background': ['Background'],
             'Audio'     : ['Audio','BGM'],
